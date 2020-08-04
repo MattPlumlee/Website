@@ -15,7 +15,7 @@ My research covers experimental and computational methods for combining observat
 
         <p>Doctor of Philosophy, Industrial Engineering, Georgia Institute of Technology, 2015. <br>
           Master of Science, Statistics, Georgia Institute of Technology, 2011. <br>
-          Bachelor of Science, Mechanical Engineering, Purdue University, 2010..</p>
+          Bachelor of Science, Mechanical Engineering, Purdue University, 2010.</p>
 
 
 
