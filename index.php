@@ -31,7 +31,7 @@ My research covers experimental and computational methods for combining observat
                 <li> M. Plumlee, D. Apley.  "Lifted Brownian kriging models."  Technometrics, vol. 59, no. 2, pp. 165-177, 2017. </li>
                 <li>  M. Plumlee,  V.R. Joseph, H. Yang.  "Calibrating functional parameters of the ion channels of cardiac cells."  Journal of the American Statistical Association, vol. 111, no. 514, pp. 500-509, 2016. </li>
                 <li> M. Plumlee,  "Fast prediction of deterministic functions using sparse grid experimental designs." Journal of the American Statistical Association, vol. 109, no. 508, pp. 1581-1591, 2014. </li>
-                  &nbsp;&nbsp;  <a href="http://www.mathworks.com/matlabcentral/fileexchange/45668-sparse-grid-designs" rel="nofollow" onClick="trackOutboundLink(this, 'SG', 'SG Code Download'); return false;">[matlab code]</a> </li><br>
+                  &nbsp;&nbsp;  <a href="http://www.mathworks.com/matlabcentral/fileexchange/45668-sparse-grid-designs" rel="nofollow" onClick="trackOutboundLink(this, 'SG', 'SG Code Download'); return false;">[matlab code]</a> <br>
                 <li>M. Plumlee, R. Tuo, "Building accurate emulators for stochastic simulations via quantile kriging." Technometrics}, vol. 56, no. 4, pp. 466-473, 2014. </li> <br> </ul>
               <li><h4>conference publications</h4> </li> <ul style="list-style-type:none;">
                  <li> M. Plumlee, B. Nelson Plausible optima,  Proceedings of the Winter Simulation Conference, pp. 1981-1992, 2018. </li>
@@ -67,13 +67,13 @@ My research covers experimental and computational methods for combining observat
 </ul>
 <h3> funding </h3>
 <ul style="list-style-type:none;">
-<li> Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, OAC 2004601
- &nbsp;&nbsp;  Senior Personnel (11 PI, co-PI and Senior Personnel),  07/2020-07/2025  </li>
-<li> Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, DMS 1953111
- &nbsp;&nbsp; PI,  08/2020-08/2023 </li>
-<li> Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, DMS 1952897
- &nbsp;&nbsp; co-PI,  08/2020-08/2023 </li>
-<li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186
- &nbsp;&nbsp;  Local PI,  06/2017-06/2018 </li>
+<li> Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, OAC 2004601</li>
+ &nbsp;&nbsp;  Senior Personnel (11 PI, co-PI and Senior Personnel),  07/2020-07/2025
+<li> Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, DMS 1953111 </li>
+ &nbsp;&nbsp; PI,  08/2020-08/2023
+<li> Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, DMS 1952897 </li>
+ &nbsp;&nbsp; co-PI,  08/2020-08/2023
+<li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 </li>
+ &nbsp;&nbsp;  Local PI,  06/2017-06/2018
 </ul>
 <?php include 'footer.php';?>
