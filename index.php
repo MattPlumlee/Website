@@ -23,7 +23,7 @@ My research covers experimental and computational methods for combining observat
 
               <ul style="list-style-type:none;">
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
-                <li>A. van Beek, S. Tao, M., D. Apley, W. Chen "Integration of Normative Decision-Making and Batch Sampling for Global Metamodeling." Journal of Mechanical Design, vol 142, no. 3. </li>
+                <li>A. van Beek, S. Tao, M., D. Apley, W. Chen "Integration of Normative Decision-Making and Batch Sampling for Global Metamodeling." Journal of Mechanical Design, vol 142, no. 3, 2020. </li>
                 <li> C-L. Sung, W. Wang, M. Plumlee, B. Haaland. "Multi-resolution functional ANOVA for large-Scale, many-input computer experiments."  Journal of the American Statistical Association, to appear. </li>
         	      <li> M. Plumlee.  "Calibration with confidence and consistency."   Journal of the Royal Statistical Society: Series B, vol. 81, no. 3, pp. 519-545, 2019. </li>
                 <li> M. Plumlee, V.R. Joseph.  "Orthogonal Gaussian process models."   Statistical Sinica, vol. 28, no. 2, pp. 601-619, 2018. </li>
