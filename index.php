@@ -23,18 +23,20 @@ My research covers experimental and computational methods for combining observat
 
               <ul style="list-style-type:none;">
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
+                <li> C-L. Sung, W. Wang, M. Plumlee, B. Haaland. "Multi-resolution functional ANOVA for large-Scale, many-input computer experiments."  Journal of the American Statistical Association, vol. 115, no. 530, pp. 908-919, 2020. </li>
+                    &nbsp;&nbsp;  <a href="https://cran.r-project.org/web/packages/MRFA/index.html">[R package]</a> <br>
                 <li>A. van Beek, S. Tao, M., D. Apley, W. Chen "Integration of Normative Decision-Making and Batch Sampling for Global Metamodeling." Journal of Mechanical Design, vol 142, no. 3, 2020. </li>
-                <li> C-L. Sung, W. Wang, M. Plumlee, B. Haaland. "Multi-resolution functional ANOVA for large-Scale, many-input computer experiments."  Journal of the American Statistical Association, to appear. </li>
         	      <li> M. Plumlee.  "Calibration with confidence and consistency."   Journal of the Royal Statistical Society: Series B, vol. 81, no. 3, pp. 519-545, 2019. </li>
                 <li> M. Plumlee, V.R. Joseph.  "Orthogonal Gaussian process models."   Statistical Sinica, vol. 28, no. 2, pp. 601-619, 2018. </li>
                 <li> M. Plumlee.  "Bayesian calibration of inexact computer models." Journal of the American Statistical Association, vol. 112, no. 519, pp. 1274-1285, 2017. </li>
                 <li> M. Plumlee, D. Apley.  "Lifted Brownian kriging models."  Technometrics, vol. 59, no. 2, pp. 165-177, 2017. </li>
                 <li>  M. Plumlee,  V.R. Joseph, H. Yang.  "Calibrating functional parameters of the ion channels of cardiac cells."  Journal of the American Statistical Association, vol. 111, no. 514, pp. 500-509, 2016. </li>
                 <li> M. Plumlee,  "Fast prediction of deterministic functions using sparse grid experimental designs." Journal of the American Statistical Association, vol. 109, no. 508, pp. 1581-1591, 2014. </li>
-                  &nbsp;&nbsp;  <a href="http://www.mathworks.com/matlabcentral/fileexchange/45668-sparse-grid-designs" rel="nofollow" onClick="trackOutboundLink(this, 'SG', 'SG Code Download'); return false;">[matlab code]</a> <br>
+                  &nbsp;&nbsp;  <a href="http://www.mathworks.com/matlabcentral/fileexchange/45668-sparse-grid-designs">[matlab code]</a> <br>
                 <li>M. Plumlee, R. Tuo, "Building accurate emulators for stochastic simulations via quantile kriging." Technometrics}, vol. 56, no. 4, pp. 466-473, 2014. </li> <br> </ul>
               <li><h4>conference publications</h4> </li> <ul style="list-style-type:none;">
-                 <li> M. Plumlee, B. Nelson Plausible optima,  Proceedings of the Winter Simulation Conference, pp. 1981-1992, 2018. </li>
+              <li> D. Eckman, M Plumlee, B. Nelson.  Revisiting Subset Selection, upcoming Proceedings of the Winter Simulation Conference </li>
+                 <li> M. Plumlee, B. Nelson. Plausible optima,  Proceedings of the Winter Simulation Conference, pp. 1981-1992, 2018. </li>
                  <li> C. Erickson, B. Ankenman, M. Plumlee, S. Sanchez. Gradient based criteria for sequential design,   Proceedings of the Winter Simulation Conference, pp. 467-478, 2018. </li>
                  <li> B. Liu, M. Plumlee, E. Byon. Data-driven parameter calibration in wake models,   Wind Energy Symposium, 2018. </li>
                  <li> H. Lam, X. Zhang, M. Plumlee Improving prediction from stochastic simulation via model discrepancy learning,  Proceedings of the Winter Simulation Conference,  pp. 1808-1819, 2017. </li>
