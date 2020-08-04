@@ -23,6 +23,7 @@ My research covers experimental and computational methods for combining observat
 
               <ul style="list-style-type:none;">
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
+                <li>A. van Beek, S. Tao, M., D. Apley, W. Chen "Integration of Normative Decision-Making and Batch Sampling for Global Metamodeling." Journal of Mechanical Design, vol 142, no. 3. </li>
                 <li> C-L. Sung, W. Wang, M. Plumlee, B. Haaland. "Multi-resolution functional ANOVA for large-Scale, many-input computer experiments."  Journal of the American Statistical Association, to appear. </li>
         	      <li> M. Plumlee.  "Calibration with confidence and consistency."   Journal of the Royal Statistical Society: Series B, vol. 81, no. 3, pp. 519-545, 2019. </li>
                 <li> M. Plumlee, V.R. Joseph.  "Orthogonal Gaussian process models."   Statistical Sinica, vol. 28, no. 2, pp. 601-619, 2018. </li>
@@ -43,7 +44,7 @@ My research covers experimental and computational methods for combining observat
             </ul>
                   <h3>service</h3>
                                 <ul style="list-style-type:none;">
-                    <li>  Assoicate Editor, Technometrics, 2019-  </li>
+                    <li>  AssociateEditor, Technometrics, 2019-  </li>
                     <li> Organizing Committee, Statistical perspectives on uncertainty quantification, 2017
                     <li>  Best student paper competition organizer, INFORMS Quality, Reliability and Statistics Section, 2018  </li>
                     <li>  Advisory council, INFORMS Quality, Reliability and Statistics Section, 2016-2018  </li>
@@ -67,7 +68,21 @@ My research covers experimental and computational methods for combining observat
 <h3> funding </h3>
 <ul style="list-style-type:none;">
 <li>
-EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1833195 </li>
+Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, OAC 2004601 </li>
+<li> <li>
+Senior Personnel (11 PI, co-PI and Senior Personnel),  07/2020-07/2025 </li></li>
+<li>
+Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, DMS 1953111 </li>
+<li> <li>
+PI,  08/2020-08/2023 </li></li>
+<li>
+Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, DMS 1952897 </li>
+<li>
+<li> <li>
+co-PI,  08/2020-08/2023 </li></li>
+EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 </li>
 </ul>
-
+<li> <li>
+Local PI,  06/2017-06/2018 </li></li>
+</ul>
 <?php include 'footer.php';?>
