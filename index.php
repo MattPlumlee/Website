@@ -4,7 +4,6 @@ session_start();
 
 
 <?php include 'header.php';?>
-<!-- Write your comments here, again 2 5 1 4 5-->
   <div class="row"><br>
     <div class="ten columns offset-by-one">
       <div class="panel">
