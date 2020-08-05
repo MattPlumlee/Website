@@ -35,7 +35,7 @@ My research covers experimental and computational methods for combining observat
                   &nbsp;&nbsp;  <a href="http://www.mathworks.com/matlabcentral/fileexchange/45668-sparse-grid-designs">[matlab code]</a> <br>
                 <li>M. Plumlee, R. Tuo, "Building accurate emulators for stochastic simulations via quantile kriging." Technometrics}, vol. 56, no. 4, pp. 466-473, 2014. </li> <br> </ul>
               <li><h4>conference publications</h4> </li> <ul style="list-style-type:none;">
-              <li> D. Eckman, M Plumlee, B. Nelson.  Revisiting Subset Selection, upcoming Proceedings of the Winter Simulation Conference </li>
+              <li> D. Eckman, M. Plumlee, B. Nelson.  Revisiting Subset Selection, upcoming Proceedings of the Winter Simulation Conference </li>
                  <li> M. Plumlee, B. Nelson. Plausible optima,  Proceedings of the Winter Simulation Conference, pp. 1981-1992, 2018. </li>
                  <li> C. Erickson, B. Ankenman, M. Plumlee, S. Sanchez. Gradient based criteria for sequential design,   Proceedings of the Winter Simulation Conference, pp. 467-478, 2018. </li>
                  <li> B. Liu, M. Plumlee, E. Byon. Data-driven parameter calibration in wake models,   Wind Energy Symposium, 2018. </li>
