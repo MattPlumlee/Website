@@ -64,7 +64,7 @@ My research covers experimental and computational methods for combining observat
                       </ul>
                       <h3>teaching</h3>
                                     <ul style="list-style-type:none;">
-<li> IEMS 490, Principals of Uncertainty Quantification, Northwestern University:  Winter 2020 </li>
+<li> IEMS 490, Principals of Uncertainty Quantification, Northwestern University:  Winter 2021 </li>
 <li> IEMS 401, Applied Mathematical Statistics, Northwestern University:  Fall 2019, Fall 2018 </li>
 <li>IEMS 303,  Statistics, Northwestern University: Winter 2021, Winter 2020, Fall 2019, Winter 2019, Fall 2018, Winter 2018, Fall 2017  </li>
 <li>IOE 465, Design and Analysis of Experiments, University of Michigan: Winter 2017, Winter 2016  </li>
