@@ -7,8 +7,8 @@ session_start();
   <div class="row"><br>
     <div class="ten columns offset-by-one">
       <div class="panel">
-        <p>I work and teach on the interface between data, technology and science.  
-My research covers experimental and computational methods for combining observations and simulation models for descriptive, predictive and prescriptive purposes in large-data environments. 
+        <p>I work and teach on the interface between data, technology and science.
+My research covers experimental and computational methods for combining observations and simulation models for descriptive, predictive and prescriptive purposes in large-data environments.
  The major tools used are machine learning and statistical analysis, large-scale optimization and designed experimentation including sequential design.</p>
 
         <h3>education</h3>
@@ -23,6 +23,9 @@ My research covers experimental and computational methods for combining observat
 
               <ul style="list-style-type:none;">
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
+                <li> M. Plumlee, T. G. Asher, W. Chang, M. V. Bilskie. "High-fidelity hurricane surge forecasting using emulation and sequential experiments ."  Annals of Applied Statistics, to appear. </li>
+                <li> M. Plumlee, C. B. Erickson, B. E. Ankenman, E. Lawrence. "Composite grid designs for adaptive computer experiments with fast inference ."  Biometrika, to appear. </li>
+                    &nbsp;&nbsp;  <a href="https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaa084/5923289?guestAccessKey=50e6d7f6-c122-4a93-a1ae-42bb3143ef59">[Journal]
                 <li> C-L. Sung, W. Wang, M. Plumlee, B. Haaland. "Multi-resolution functional ANOVA for large-Scale, many-input computer experiments."  Journal of the American Statistical Association, vol. 115, no. 530, pp. 908-919, 2020. </li>
                     &nbsp;&nbsp;  <a href="https://cran.r-project.org/web/packages/MRFA/index.html">[R package]</a> <br>
                 <li>A. van Beek, S. Tao, M., D. Apley, W. Chen "Integration of Normative Decision-Making and Batch Sampling for Global Metamodeling." Journal of Mechanical Design, vol 142, no. 3, 2020. </li>
@@ -35,7 +38,7 @@ My research covers experimental and computational methods for combining observat
                   &nbsp;&nbsp;  <a href="http://www.mathworks.com/matlabcentral/fileexchange/45668-sparse-grid-designs">[matlab code]</a> <br>
                 <li>M. Plumlee, R. Tuo, "Building accurate emulators for stochastic simulations via quantile kriging." Technometrics}, vol. 56, no. 4, pp. 466-473, 2014. </li> <br> </ul>
               <li><h4>conference publications</h4> </li> <ul style="list-style-type:none;">
-              <li> D. Eckman, M. Plumlee, B. Nelson.  Revisiting Subset Selection, upcoming Proceedings of the Winter Simulation Conference </li>
+                <li> D. Eckman, M. Plumlee, B. Nelson.  Revisiting Subset Selection, upcoming Proceedings of the Winter Simulation Conference </li>
                  <li> M. Plumlee, B. Nelson. Plausible optima,  Proceedings of the Winter Simulation Conference, pp. 1981-1992, 2018. </li>
                  <li> C. Erickson, B. Ankenman, M. Plumlee, S. Sanchez. Gradient based criteria for sequential design,   Proceedings of the Winter Simulation Conference, pp. 467-478, 2018. </li>
                  <li> B. Liu, M. Plumlee, E. Byon. Data-driven parameter calibration in wake models,   Wind Energy Symposium, 2018. </li>
@@ -46,7 +49,7 @@ My research covers experimental and computational methods for combining observat
             </ul>
                   <h3>service</h3>
                                 <ul style="list-style-type:none;">
-                    <li>  AssociateEditor, Technometrics, 2019-  </li>
+                    <li>  Associate Editor, Technometrics, 2019-  </li>
                     <li> Organizing Committee, Statistical perspectives on uncertainty quantification, 2017
                     <li>  Best student paper competition organizer, INFORMS Quality, Reliability and Statistics Section, 2018  </li>
                     <li>  Advisory council, INFORMS Quality, Reliability and Statistics Section, 2016-2018  </li>
@@ -61,8 +64,9 @@ My research covers experimental and computational methods for combining observat
                       </ul>
                       <h3>teaching</h3>
                                     <ul style="list-style-type:none;">
-<li> IEMS 401, Applied Mathematical Statistics, Northwestern University: Fall 2018 </li>
-<li>IEMS 303,  Statistics, Northwestern University: Winter 2019, Fall 2018, Winter 2018, Fall 2017  </li>
+<li> IEMS 490, Principals of Uncertainty Quantification, Northwestern University:  Winter 2020 </li>
+<li> IEMS 401, Applied Mathematical Statistics, Northwestern University:  Fall 2019, Fall 2018 </li>
+<li>IEMS 303,  Statistics, Northwestern University: Winter 2021, Winter 2020, Fall 2019, Winter 2019, Fall 2018, Winter 2018, Fall 2017  </li>
 <li>IOE 465, Design and Analysis of Experiments, University of Michigan: Winter 2017, Winter 2016  </li>
 <li>IOE 591, Bayesian Data Analysis, University of Michigan: Fall 2016. </li>
 <li>ISYE 3039, Methods for Quality Improvement, Georgia Institute of Technology: Fall 2014.  </li>
