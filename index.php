@@ -25,7 +25,7 @@ My research covers experimental and computational methods for combining observat
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
                 <li> M. Plumlee, T. G. Asher, W. Chang, M. V. Bilskie. "High-fidelity hurricane surge forecasting using emulation and sequential experiments ."  Annals of Applied Statistics, to appear. </li>
                 <li> M. Plumlee, C. B. Erickson, B. E. Ankenman, E. Lawrence. "Composite grid designs for adaptive computer experiments with fast inference ."  Biometrika, to appear. </li>
-                    &nbsp;&nbsp;  <a href="https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaa084/5923289?guestAccessKey=50e6d7f6-c122-4a93-a1ae-42bb3143ef59">[Journal]
+                    &nbsp;&nbsp;  <a href="https://cran.r-project.org/web/packages/CGGP/index.html">[R package] </a> <br> <a href="https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaa084/5923289?guestAccessKey=50e6d7f6-c122-4a93-a1ae-42bb3143ef59">[Journal] </a> <br>
                 <li> C-L. Sung, W. Wang, M. Plumlee, B. Haaland. "Multi-resolution functional ANOVA for large-Scale, many-input computer experiments."  Journal of the American Statistical Association, vol. 115, no. 530, pp. 908-919, 2020. </li>
                     &nbsp;&nbsp;  <a href="https://cran.r-project.org/web/packages/MRFA/index.html">[R package]</a> <br>
                 <li>A. van Beek, S. Tao, M., D. Apley, W. Chen "Integration of Normative Decision-Making and Batch Sampling for Global Metamodeling." Journal of Mechanical Design, vol 142, no. 3, 2020. </li>
