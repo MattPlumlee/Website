@@ -4032,13 +4032,6 @@ function bibtexbrowserDefaultCSS() {
 
 /* 2nd level headers, equivalent H2  */
 .sheader {
-  font-weight: bold;
-  background-color: #003366;
-  color: #ffffff;
-  padding: 2px;
-  margin-bottom: 0px;
-  margin-top: 7px;
-  border-bottom: #ff6633 2px solid;
   display: none;
 }
 
