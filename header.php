@@ -18,7 +18,7 @@
 <div id="container">
   <div class="row"><br>
     <div class="three columns offset-by-two">
-      <img class="pic" src="images/matthew_plumlee.jpg">
+      <img class="thumbnail img-responsive" src="images/matthew_plumlee.jpg">
     </div>
 
      <div class="six columns offset-by-one">
