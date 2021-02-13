@@ -18,7 +18,7 @@
 <div id="container">
   <div class="row"><br>
     <div class="col-md-4">
-      <img class="thumbnail img-responsive" src="images/matthew_plumlee.jpg">
+      <img class="img-fluid" src="images/matthew_plumlee.jpg"  max-width="200px">
     </div>
 
      <div class="six columns offset-by-one">
