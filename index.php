@@ -85,21 +85,8 @@ My research covers experimental and computational methods for combining observat
  &nbsp;&nbsp;  Local PI,  06/2017-06/2018
 </ul>
 
-
 <?php
-$_GET['library']=1;
-require_once('bibtexbrowser.php');
-global $db;
-$db = new BibDataBase();
-$db->load('plumleebib.bib');
-
-foreach ($entries as $bibentry) {
-  echo $bibentry->toHTML()."<br/>";
-}
-?>
-
-<?php
-$_GET['bib']='plumleebib.bib';
+$_GET['bib']='somemiscfile/plumleebib.bib';
 $_GET['all']=1;
 include( 'bibtexbrowser.php' );
 ?>
