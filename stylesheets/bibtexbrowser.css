@@ -2,5 +2,5 @@
 .bibref {  display:none;}
 .theader {  display:none;}
 .sheader {  display:none;}
-.result { background:rgb(235, 241, 251);}
-.bibline { background:rgb(235, 241, 251);}
+.result { background-color: rgb(235, 241, 251);}
+.bibline { background-color: rgb(235, 241, 251);}
