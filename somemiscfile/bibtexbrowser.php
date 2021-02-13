@@ -4039,7 +4039,7 @@ function bibtexbrowserDefaultCSS() {
   margin-bottom: 0px;
   margin-top: 7px;
   border-bottom: #ff6633 2px solid;
-
+  display: none;
 }
 
 /* 3rd level headers, equivalent H3  */
