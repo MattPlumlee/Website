@@ -1,0 +1,4 @@
+.bibmenu {display:none} /* disables the [bibtex] and the like */
+.bibanchor {display:none}
+.theader {display:none}
+.sheader {display:none} /* disables the year header e.g., 2001 */
