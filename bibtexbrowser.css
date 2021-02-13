@@ -1,0 +1,3 @@
+.theader {display:none}
+.sheader {display:none} /* disables the year header e.g., 2001 */
+.bibanchor {display:none} /* disables the index [1] or [Name2010], etc. depending
