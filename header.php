@@ -76,5 +76,4 @@
       <li><a href="#">Three</a></li>
     </ul>
   </div>
-  <div class="top-bar-right">
 </div>

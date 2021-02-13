@@ -7,14 +7,6 @@ session_start();
 
 <?php include 'header.php';?>
 
-<div class="scrollmenu">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div>
-
-
   <div class="row"><br>
     <div class="ten columns offset-by-one">
       <div class="panel">
