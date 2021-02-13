@@ -64,8 +64,5 @@
           }
           //-->
           </script><noscript>Sorry, you need Javascript on to email me.</noscript>
-
-
-
     </div>
   </div>

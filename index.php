@@ -3,12 +3,21 @@ session_start();
 ?>
 
 
+
+
 <?php include 'header.php';?>
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+
   <div class="row"><br>
     <div class="ten columns offset-by-one">
       <div class="panel">
-        Some current projects:
-
         <p>I work and teach on the interface between data, technology and science.
 My research covers experimental and computational methods for combining observations and simulation models for descriptive, predictive and prescriptive purposes in large-data environments.
  The major tools used are machine learning and statistical analysis, large-scale optimization and designed experimentation including sequential design.</p>
@@ -30,7 +39,7 @@ My research covers experimental and computational methods for combining observat
 
 <h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
 
-<h4>representative theory/methodology publications </h4>
+<h4>select theory/methodology pubs </h4>
 <ul>
 <?php
 $query = array('highlightmethod'=>'1');
@@ -43,7 +52,7 @@ foreach ($entries as $bibentry) {
 ?>
 </ul>
 
-<h4>representative application publications </h4>
+<h4>select  application pubs </h4>
 <ul>
 <?php
 $query = array('highlightappl'=>'1');
