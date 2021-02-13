@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Matthew Plumlee - Northwestern </title>
-  <meta name="description" content="Matthew Plumlee.">
-  <link rel="stylesheet" type="text/css"  href="stylesheets/bootstrap.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css"  href="stylesheets/bibtexbrowser.css">
   <link rel="stylesheet" type="text/css"  href="stylesheets/app.css">
   <link rel="canonical" href="/">
