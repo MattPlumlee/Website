@@ -31,26 +31,26 @@ My research covers experimental and computational methods for combining observat
 <h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
 
 <ul style="list-style-type:none;">
-  <li><h4>representative method publications </h4> </li> <ul style="list-style-type:none;">
-    <?php
-    $query = array('highlightmethod'=>'1');
-    $entries=$db->multisearch($query);
-    uasort($entries, 'compare_bib_entries');
+<li><h4>representative theory/methodology publications </h4> </li>
+<?php
+$query = array('highlightmethod'=>'1');
+$entries=$db->multisearch($query);
+uasort($entries, 'compare_bib_entries');
 
-    foreach ($entries as $bibentry) {
-      echo $bibentry->toHTML()."<br/>";
-    }
-    ?>
-    <li><h4>representative application publications </h4> </li> <ul style="list-style-type:none;">
-      <?php
-      $query = array('highlightappl'=>'1');
-      $entries=$db->multisearch($query);
-      uasort($entries, 'compare_bib_entries');
+foreach ($entries as $bibentry) {
+  echo $bibentry->toHTML()."<br/>";
+}
+?>
+<li><h4>representative application publications </h4> </li>   
+<?php
+$query = array('highlightappl'=>'1');
+$entries=$db->multisearch($query);
+uasort($entries, 'compare_bib_entries');
 
-      foreach ($entries as $bibentry) {
-        echo $bibentry->toHTML()."<br/>";
-      }
-      ?>
+foreach ($entries as $bibentry) {
+  echo $bibentry->toHTML()."<br/>";
+}
+?>
 
                       <h3>teaching</h3>
                                     <ul style="list-style-type:none;">
