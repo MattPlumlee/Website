@@ -23,12 +23,6 @@ My research covers experimental and computational methods for combining observat
 
               <h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
 
-              <?php
-              $_GET['bib']='plumleebib.bib';
-              $_GET['highlight']=1;
-              include( 'bibtexbrowserv1.php' );
-              ?>
-
               <ul style="list-style-type:none;">
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
                 <li> M. Plumlee, T. G. Asher, W. Chang, M. V. Bilskie. "High-fidelity hurricane surge forecasting using emulation and sequential experiments ."  Annals of Applied Statistics, to appear. </li>
@@ -92,9 +86,24 @@ My research covers experimental and computational methods for combining observat
 </ul>
 
 <?php
-$_GET['bib']='plumleebib.bib';
-$_GET['all']=1;
-include( 'bibtexbrowserv1.php' );
+<?php
+$_GET['library']=1;
+define('BIBTEXBROWSER_BIBTEX_LINKS',false); // no [bibtex] link by default
+require_once('bibtexbrowser.php');
+global $db;
+$db = new BibDataBase();
+$db->load('biblio.bib');
+
+// printing all 2014 entries
+// can also be $query = array('year'=>'.*');
+$query = array('hightlight'=>'1');
+$entries=$db->multisearch($query);
+uasort($entries, 'compare_bib_entries');
+
+foreach ($entries as $bibentry) {
+  echo $bibentry->toHTML()."<br/>";
+}
+?>
 ?>
 
 <?php include 'footer.php';?>
