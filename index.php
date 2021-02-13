@@ -30,7 +30,6 @@ My research covers experimental and computational methods for combining observat
 
 <h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
 
-<ul style="list-style-type:none;">
 <li><h4>representative theory/methodology publications </h4> </li>
 <?php
 $query = array('highlightmethod'=>'1');
@@ -41,7 +40,8 @@ foreach ($entries as $bibentry) {
   echo $bibentry->toHTML()."<br/>";
 }
 ?>
-<li><h4>representative application publications </h4> </li>   
+
+<li><h4>representative application publications </h4> </li>
 <?php
 $query = array('highlightappl'=>'1');
 $entries=$db->multisearch($query);
@@ -52,8 +52,8 @@ foreach ($entries as $bibentry) {
 }
 ?>
 
-                      <h3>teaching</h3>
-                                    <ul style="list-style-type:none;">
+<h3>teaching</h3>
+<ul style="list-style-type:none;">
 <li> IEMS 490, Principals of Uncertainty Quantification, Northwestern University:  Winter 2021 </li>
 <li> IEMS 401, Applied Mathematical Statistics, Northwestern University:  Fall 2019, Fall 2018 </li>
 <li>IEMS 303,  Statistics, Northwestern University: Winter 2021, Winter 2020, Fall 2019, Winter 2019, Fall 2018, Winter 2018, Fall 2017  </li>
