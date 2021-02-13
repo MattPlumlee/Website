@@ -86,7 +86,6 @@ My research covers experimental and computational methods for combining observat
 </ul>
 
 <?php
-<?php
 $_GET['library']=1;
 require_once('bibtexbrowser.php');
 global $db;
@@ -102,7 +101,6 @@ uasort($entries, 'compare_bib_entries');
 foreach ($entries as $bibentry) {
   echo $bibentry->toHTML()."<br/>";
 }
-?>
 ?>
 
 <?php include 'footer.php';?>
