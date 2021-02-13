@@ -15,7 +15,7 @@
 
 
 <body>
-<div class="container-fluid" max-width:"900px">
+<div class="container-lg">
   <div class="row"><br>
     <div class="col-sm">
       <img class="img-responsive" src="images/matthew_plumlee.jpg"  max-width="400px" width="300px">
