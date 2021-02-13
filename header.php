@@ -17,11 +17,12 @@
 <body>
 <div id="container">
   <div class="row"><br>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <img class="img-fluid" src="images/matthew_plumlee.jpg"  max-width="200px">
     </div>
 
-     <div class="six columns offset-by-one">
+      <div class="col-md-3">  </div>
+     <div class="col-md-3">
         <h3>Matthew Plumlee</h3>
         <p><b>Assistant Professor </b><br>
         <a href="https://www.mccormick.northwestern.edu/industrial/"> Industrial Engineering and Management Sciences </a> <br>
