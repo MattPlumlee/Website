@@ -4,26 +4,8 @@
 .sheader {  display:none;}
 .sheader {  display:none;}
 
-header[role="banner"] {
-  #logo-main {
-    display: block;
-    margin: 20px auto;
-  }
-}
-
-#navbar-primary.navbar-default {
-  background: transparent;
-  border: none;
-  .navbar-nav {
-    width: 100%;
-    text-align: center;
-    > li {
-      display: inline-block;
-      float: none;
-      > a {
-        padding-left: 30px;
-        padding-right: 30px;
-        }
-    }
-  }
+body {
+	max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important;
 }
