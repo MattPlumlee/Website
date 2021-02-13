@@ -66,7 +66,7 @@
           </script><noscript>Sorry, you need Javascript on to email me.</noscript>
     </div>
 
-    <div class="navbar">
+    <div class="top-bar">
       <a href="#home">Home</a>
       <a href="#news">News</a>
       <a href="#contact">Contact</a>
