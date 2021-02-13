@@ -3338,9 +3338,6 @@ class AcademicDisplay  {
    */
   function search2html($query, $title) {
     $entries = $this->db->multisearch($query);
-    if (count($entries)>0) {
-      echo "\n".'<div class="sheader">'.$title.'</div>'."\n";
-    }
     $display = createBasicDisplay();
     $display->setEntries($entries);
     $display->headerCSS = 'theader';
