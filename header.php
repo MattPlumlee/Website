@@ -66,11 +66,9 @@
           </script><noscript>Sorry, you need Javascript on to email me.</noscript>
     </div>
 
-    <ul id="nav">
-    	<li><a href="#">About Us</a></li>
-    	<li><a href="#">Our Products</a></li>
-    	<li><a href="#">FAQs</a></li>
-    	<li><a href="#">Contact</a></li>
-    	<li><a href="#">Login</a></li>
-    </ul>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div>
 </div>
