@@ -84,4 +84,30 @@ My research covers experimental and computational methods for combining observat
 <li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 </li>
  &nbsp;&nbsp;  Local PI,  06/2017-06/2018
 </ul>
+
+
+<?php
+$_GET['library']=1;
+define('BIBTEXBROWSER_BIBTEX_LINKS',false); // no [bibtex] link by default
+require_once('bibtexbrowser.php');
+global $db;
+$db = new BibDataBase();
+$db->load('biblio.bib');
+
+// printing all 2014 entries
+// can also be $query = array('year'=>'.*');
+$query = array('year'=>'2014');
+$entries=$db->multisearch($query);
+uasort($entries, 'compare_bib_entries');
+
+foreach ($entries as $bibentry) {
+  echo $bibentry->toHTML()."<br/>";
+}
+?>
+
+<?php
+$_GET['bib']='somemiscfile/plumleebib';
+include( 'bibtexbrowser.php' );
+?>
+
 <?php include 'footer.php';?>
