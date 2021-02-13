@@ -106,8 +106,9 @@ foreach ($entries as $bibentry) {
 ?>
 
 <?php
-$_GET['bib']='somemiscfile/plumleebib';
+$_GET['bib']='csgroup2008.bib';
+$_GET['all']=1;
 include( 'bibtexbrowser.php' );
-?>
+?> 
 
 <?php include 'footer.php';?>
