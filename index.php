@@ -99,7 +99,7 @@ foreach ($entries as $bibentry) {
 ?>
 
 <?php
-$_GET['bib']='csgroup2008.bib';
+$_GET['bib']='plumleebib.bib';
 $_GET['all']=1;
 include( 'bibtexbrowser.php' );
 ?>
