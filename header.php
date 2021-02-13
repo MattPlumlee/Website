@@ -15,12 +15,13 @@
 
 
 <body>
-<div class="container-fluid">
+<div class="container-lg-fluid">
   <div class="row"><br>
     <div class="col-sm">
       <img class="img-responsive" src="images/matthew_plumlee.jpg"  max-width="400px" width="300px">
     </div>
 
+     <div class="col-sm">
         <h3>Matthew Plumlee</h3>
         <p><b>Assistant Professor </b><br>
         <a href="https://www.mccormick.northwestern.edu/industrial/"> Industrial Engineering and Management Sciences </a> <br>
@@ -51,4 +52,5 @@
           }
           //-->
           </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+    </div>
 </div>
