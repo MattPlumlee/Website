@@ -88,7 +88,7 @@ My research covers experimental and computational methods for combining observat
 <?php
 $_GET['bib']='plumleebib.bib';
 $_GET['all']=1;
-include( 'bibtexbrowser.local.php' );
+include( 'bibtexbrowser.php' );
 ?>
 
 <?php include 'footer.php';?>
