@@ -27,6 +27,7 @@
   <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
+
 <div id="container">
   <div class="row"><br>
     <div class="three columns offset-by-two">
@@ -68,8 +69,7 @@
 </div>
 
 
-
-    <div class="navbar navbar-default" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
 	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -79,12 +79,12 @@
 		<span class="icon-bar"></span>
 	  </button>
 
-    <a class="navbar-brand" href="/">BAND Framework Project</a>
+    <a class="navbar-brand" href="/">Plumlee</a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="/">Home</a></li>
-		<li><a href="/team">Team</a></li>
+		<li><a href="/software">Software</a></li>
 	  </ul>
 	</div>
   </div>
