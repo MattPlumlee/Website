@@ -4184,12 +4184,7 @@ if (method_exists($content, 'getTitle')) {
 // now the CSS
 echo '<style type="text/css"><!--  '."\n";
 
-if (method_exists($content, 'getCSS')) {
-  echo $content->getCSS();
-} else if (is_readable(dirname(__FILE__).'/bibtexbrowser.css')) {
-  readfile(dirname(__FILE__).'/bibtexbrowser.css');
-}
-else {  bibtexbrowserDefaultCSS(); }
+bibtexbrowserDefaultCSS();
 
 echo "\n".' --></style>';
 
