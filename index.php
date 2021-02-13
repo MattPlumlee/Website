@@ -23,6 +23,12 @@ My research covers experimental and computational methods for combining observat
 
               <h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
 
+              <?php
+              $_GET['bib']='plumleebib.bib';
+              $_GET['highlight']=1;
+              include( 'bibtexbrowserv1.php' );
+              ?>
+
               <ul style="list-style-type:none;">
                 <li><h4>journal publications </h4> </li> <ul style="list-style-type:none;">
                 <li> M. Plumlee, T. G. Asher, W. Chang, M. V. Bilskie. "High-fidelity hurricane surge forecasting using emulation and sequential experiments ."  Annals of Applied Statistics, to appear. </li>
