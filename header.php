@@ -14,17 +14,12 @@
 
   <title>Matthew Plumlee - Northwestern </title>
 
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  -->
 
   <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/bibtexbrowser.css">
   <link rel="stylesheet" href="stylesheets/foundation.css">
   <link rel="stylesheet" href="stylesheets/app.css">
-  <link rel="stylesheet" href="stylesheets/bibtexbrowser.css">
 
-  <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
 
