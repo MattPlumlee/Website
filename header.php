@@ -68,9 +68,9 @@
 </div>
 
 
-<nav class="navbar navbar-default">
-      <ul class="nav navbar-nav">
-        <li><a href="http://users.iems.northwestern.edu/~mplumlee/"><span class="ss-icon ss-standard ss-home"></span>Home</a></li>
-        <li><a href="http://users.iems.northwestern.edu/~mplumlee/"><span class="ss-icon ss-standard ss-inbox"></span>Papers</a></li>  </ul>
-    </div>
-  </div>
+
+  <ul id=menu>
+<li><a href="#L384">Section 1</a>
+<li><a href="#details">Section 2</a>
+<li><a href="#FAQ">Section 3</a>
+</ul>
