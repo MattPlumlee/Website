@@ -5,7 +5,6 @@
 .sheader {  display:none;}
 
 .header-container, .body-container, .footer-container {
-	max-width: 1080px;
-    margin: 0 auto;
+	max-width: 600px;
     width: 100%;
 }
