@@ -8,21 +8,17 @@
 
 <head>
   <meta charset="utf-8" />
-
-  <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Matthew Plumlee - Northwestern </title>
-
-
-  <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/bibtexbrowser.css">
   <link rel="stylesheet" href="stylesheets/foundation.css">
   <link rel="stylesheet" href="stylesheets/app.css">
-
+  <link rel="canonical" href="/">
 </head>
-<body>
 
+
+<body>
 <div id="container">
   <div class="row"><br>
     <div class="three columns offset-by-two">
@@ -64,23 +60,25 @@
 </div>
 
 
-    <div class="navbar navbar-default" role="navigation">
+<nav id="navbar-primary" class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-
-    <a class="navbar-brand" href="/">Plumlee</a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="/">Home</a></li>
-		<li><a href="/software">Software</a></li>
-	  </ul>
-	</div>
-  </div>
-</div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
