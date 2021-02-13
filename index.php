@@ -88,11 +88,10 @@ My research covers experimental and computational methods for combining observat
 <?php
 <?php
 $_GET['library']=1;
-define('BIBTEXBROWSER_BIBTEX_LINKS',false); // no [bibtex] link by default
 require_once('bibtexbrowser.php');
 global $db;
 $db = new BibDataBase();
-$db->load('biblio.bib');
+$db->load('plumleebib.bib');
 
 // printing all 2014 entries
 // can also be $query = array('year'=>'.*');
