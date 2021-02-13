@@ -1,6 +1,6 @@
-.bibanchor {  display:none;}
-.bibref {  display:none;}
-.theader {  display:none;}
-.sheader {  display:none;}
+.bibanchor {  display:none; background: rgb(235, 241, 251);}}
+.bibref {  display:none; background: rgb(235, 241, 251);}
+.theader {  display:none; background: rgb(235, 241, 251);}}
+.sheader {  display:none; background: rgb(235, 241, 251);}}
 .result { background: rgb(235, 241, 251);}
 .bibline { background: rgb(235, 241, 251);}
