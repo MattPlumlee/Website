@@ -32,7 +32,7 @@ My research covers experimental and computational methods for combining observat
 
 <ul style="list-style-type:none;">
   <li><h4>representative method publications </h4> </li> <ul style="list-style-type:none;">
-    <? php
+    <?php
     $query = array('highlightmethod'=>'1');
     $entries=$db->multisearch($query);
     uasort($entries, 'compare_bib_entries');
@@ -42,7 +42,7 @@ My research covers experimental and computational methods for combining observat
     }
     ?>
     <li><h4>representative application publications </h4> </li> <ul style="list-style-type:none;">
-      <? php
+      <?php
       $query = array('highlightappl'=>'1');
       $entries=$db->multisearch($query);
       uasort($entries, 'compare_bib_entries');
