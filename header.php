@@ -35,7 +35,7 @@
      <div class="six columns offset-by-one">
         <h3>Matthew Plumlee</h3>
         <p><b>Assistant Professor </b><br>
-        <a href="https://www.mccormick.northwestern.edu/industrial/"> Industrial Engineering and Management Sciences</a> <br>
+        <a href="https://www.mccormick.northwestern.edu/industrial/"> Industrial Engineering and Management Sciences </a> <br>
           Northwestern University<br>
           Member, <a href="https://www.naise.northwestern.edu"> NAISE </a> <br>
 
