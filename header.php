@@ -22,6 +22,7 @@
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.css">
   <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/bibtexbrowser.css">
 
   <script src="javascripts/modernizr.foundation.js"></script>
 </head>
