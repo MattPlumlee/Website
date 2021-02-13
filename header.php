@@ -15,7 +15,7 @@
 
 
 <body>
-<div class="container-fluid">
+<div class="container-lg mt-3">
   <div class="row"><br>
     <div class="col-sm">
       <img class="img-responsive" src="images/matthew_plumlee.jpg"  max-width="400px" width="300px">
