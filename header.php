@@ -18,7 +18,7 @@
 <div class="container-fluid">
   <div class="row"><br>
     <div class="col-md-2">
-      <img class="img-responsive" src="images/matthew_plumlee.jpg"  max-width="200px">
+      <img class="img-responsive" src="images/matthew_plumlee.jpg"  max-width="400px" width="300px">
     </div>
 
      <div class="col-md-2">
