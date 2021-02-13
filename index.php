@@ -7,27 +7,24 @@ session_start();
 
 <?php include 'header.php';?>
 
-  <div class="row"><br>
-    <div class="ten columns offset-by-one">
-      <div class="panel">
-        <p>I work and teach on the interface between data, technology and science.
+<p>I work and teach on the interface between data, technology and science.
 My research covers experimental and computational methods for combining observations and simulation models for descriptive, predictive and prescriptive purposes in large-data environments.
  The major tools used are machine learning and statistical analysis, large-scale optimization and designed experimentation including sequential design.</p>
 
-        <h3>education</h3>
+<h3>education</h3>
 
-        <p>Doctor of Philosophy, Industrial Engineering, Georgia Institute of Technology, 2015. <br>
-          Master of Science, Statistics, Georgia Institute of Technology, 2011. <br>
-          Bachelor of Science, Mechanical Engineering, Purdue University, 2010.</p>
+<p>Doctor of Philosophy, Industrial Engineering, Georgia Institute of Technology, 2015. <br>
+  Master of Science, Statistics, Georgia Institute of Technology, 2011. <br>
+  Bachelor of Science, Mechanical Engineering, Purdue University, 2010.</p>
 
 
-          <?php
-          $_GET['library']=1;
-          require_once('bibtexbrowserv1.php');
-          global $db;
-          $db = new BibDataBase();
-          $db->load('plumleebib.bib');
-          ?>
+<?php
+$_GET['library']=1;
+require_once('bibtexbrowserv1.php');
+global $db;
+$db = new BibDataBase();
+$db->load('plumleebib.bib');
+?>
 
 <h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
 
