@@ -1,5 +1,5 @@
 <?php /* bibtexbrowser: publication lists with bibtex and PHP
-<!--this is version from commit 3a216ef7aeb2dd1048ebf236ce9ed0461298e857 -->
+<!--this is version from commit __GITHUB__ -->
 URL: http://www.monperrus.net/martin/bibtexbrowser/
 Questions & Bug Reports: https://github.com/monperrus/bibtexbrowser/issues
 
@@ -19,7 +19,7 @@ License, or (at your option) any later version.
 // added on Wednesday, June 01 2011, bug found by Carlos Bras
 if (!defined('BIBTEXBROWSER')) {
 // this if block ends at the very end of this file, after all class and function declarations.
-define('BIBTEXBROWSER','v3a216ef7aeb2dd1048ebf236ce9ed0461298e857');
+define('BIBTEXBROWSER','v__GITHUB__');
 
 // support for configuration
 // set with bibtexbrowser_configure, get with config_value
@@ -2695,7 +2695,7 @@ if (!function_exists('poweredby')) {
   function poweredby() {
     $poweredby = "\n".'<div style="text-align:right;font-size: xx-small;opacity: 0.6;" class="poweredby">';
     $poweredby .= '<!-- If you like bibtexbrowser, thanks to keep the link :-) -->';
-    $poweredby .= 'Powered by <a href="http://www.monperrus.net/martin/bibtexbrowser/">bibtexbrowser</a><!--v3a216ef7aeb2dd1048ebf236ce9ed0461298e857-->';
+    $poweredby .= 'Powered by <a href="http://www.monperrus.net/martin/bibtexbrowser/">bibtexbrowser</a><!--v__GITHUB__-->';
     $poweredby .= '</div>'."\n";
     return $poweredby;
   }
@@ -3338,6 +3338,9 @@ class AcademicDisplay  {
    */
   function search2html($query, $title) {
     $entries = $this->db->multisearch($query);
+    if (count($entries)>0) {
+      echo "\n".'<div class="sheader">'.$title.'</div>'."\n";
+    }
     $display = createBasicDisplay();
     $display->setEntries($entries);
     $display->headerCSS = 'theader';
@@ -4029,7 +4032,14 @@ function bibtexbrowserDefaultCSS() {
 
 /* 2nd level headers, equivalent H2  */
 .sheader {
-  display: none;
+  font-weight: bold;
+  background-color: #003366;
+  color: #ffffff;
+  padding: 2px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+  border-bottom: #ff6633 2px solid;
+
 }
 
 /* 3rd level headers, equivalent H3  */
@@ -4156,7 +4166,7 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo OUTPUT_ENCODING ?>"/>
-<meta name="generator" content="bibtexbrowser v3a216ef7aeb2dd1048ebf236ce9ed0461298e857" />
+<meta name="generator" content="bibtexbrowser v__GITHUB__" />
 <?php
 // if ($content->getRSS()!='') echo '<link rel="alternate" type="application/rss+xml" title="RSS" href="'.$content->getRSS().'&amp;rss" />';
 ?>
@@ -4428,7 +4438,7 @@ class RSSDisplay {
       <link>http://<?php echo @$_SERVER['HTTP_HOST'].htmlentities(@$_SERVER['REQUEST_URI']);?></link>
       <atom:link href="http://<?php echo @$_SERVER['HTTP_HOST'].htmlentities(@$_SERVER['REQUEST_URI']);?>" rel="self" type="application/rss+xml" />
       <description></description>
-      <generator>bibtexbrowser v3a216ef7aeb2dd1048ebf236ce9ed0461298e857</generator>
+      <generator>bibtexbrowser v__GITHUB__</generator>
 
 <?php
       foreach($this->entries as $bibentry) {
@@ -4779,7 +4789,7 @@ class Dispatcher {
   function diagnosis() {
     header('Content-type: text/plain');
     echo "php version: ".phpversion()."\n";
-    echo "bibtexbrowser version: 3a216ef7aeb2dd1048ebf236ce9ed0461298e857\n";
+    echo "bibtexbrowser version: __GITHUB__\n";
     echo "dir: ".decoct(fileperms(dirname(__FILE__)))."\n";
     echo "bibtex file: ".decoct(fileperms($_GET[Q_FILE]))."\n";
     exit;
@@ -4791,7 +4801,7 @@ class Dispatcher {
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
     <html  xmlns="http://www.w3.org/1999/xhtml">
     <head>
-    <meta name="generator" content="bibtexbrowser v3a216ef7aeb2dd1048ebf236ce9ed0461298e857" />
+    <meta name="generator" content="bibtexbrowser v__GITHUB__" />
     <meta http-equiv="Content-Type" content="text/html; charset=<?php echo OUTPUT_ENCODING ?>"/>
     <title>You are browsing <?php echo htmlentities($_GET[Q_FILE], ENT_QUOTES); ?> with bibtexbrowser</title>
     </head>
