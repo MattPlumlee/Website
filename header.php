@@ -65,15 +65,12 @@
           //-->
           </script><noscript>Sorry, you need Javascript on to email me.</noscript>
     </div>
-  </div>
 
-
-  <div class="top-bar">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-      <li><a href="#">Three</a></li>
+    <ul id="nav">
+    	<li><a href="#">About Us</a></li>
+    	<li><a href="#">Our Products</a></li>
+    	<li><a href="#">FAQs</a></li>
+    	<li><a href="#">Contact</a></li>
+    	<li><a href="#">Login</a></li>
     </ul>
-  </div>
 </div>
