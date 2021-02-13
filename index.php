@@ -92,9 +92,7 @@ global $db;
 $db = new BibDataBase();
 $db->load('plumleebib.bib');
 
-// printing all 2014 entries
-// can also be $query = array('year'=>'.*');
-$query = array('hightlight'=>'1');
+$query = array('year'=>'2014');
 $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
