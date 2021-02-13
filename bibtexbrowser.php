@@ -4039,7 +4039,7 @@ function bibtexbrowserDefaultCSS() {
   margin-bottom: 0px;
   margin-top: 7px;
   border-bottom: #ff6633 2px solid;
-
+  display: none;
 }
 
 /* 3rd level headers, equivalent H3  */
@@ -4057,7 +4057,6 @@ function bibtexbrowserDefaultCSS() {
 
 .menu {
   font-size: x-small;
-  background-color: #EFDDB4;
   padding: 0px;
   border: 1px solid #000000;
   margin: 0px;
