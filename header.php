@@ -69,17 +69,6 @@
 
 
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
-  <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
-        <span class="icon-bar first-child"></span>
-        <span class="icon-bar second-child"></span>
-        <span class="icon-bar third-child"></span>
-        <span class="sr-only">Toggle navigation</span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="gramacy_nav">
       <ul class="nav navbar-nav">
         <li><a href="http://users.iems.northwestern.edu/~mplumlee/"><span class="ss-icon ss-standard ss-home"></span>Home</a></li>
         <li><a href="http://users.iems.northwestern.edu/~mplumlee/"><span class="ss-icon ss-standard ss-inbox"></span>Papers</a></li>  </ul>
