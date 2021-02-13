@@ -85,10 +85,5 @@ My research covers experimental and computational methods for combining observat
  &nbsp;&nbsp;  Local PI,  06/2017-06/2018
 </ul>
 
-<?php
-$_GET['bib']='plumleebib.bib';
-$_GET['all']=1;
-include( 'bibtexbrowser.php' );
-?>
 
 <?php include 'footer.php';?>
