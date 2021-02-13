@@ -7,6 +7,8 @@ session_start();
   <div class="row"><br>
     <div class="ten columns offset-by-one">
       <div class="panel">
+        Some current projects:
+
         <p>I work and teach on the interface between data, technology and science.
 My research covers experimental and computational methods for combining observations and simulation models for descriptive, predictive and prescriptive purposes in large-data environments.
  The major tools used are machine learning and statistical analysis, large-scale optimization and designed experimentation including sequential design.</p>
