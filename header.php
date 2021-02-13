@@ -68,9 +68,17 @@
 </div>
 
 
-
-  <ul id=menu>
-<li><a href="#L384">Section 1</a>
-<li><a href="#details">Section 2</a>
-<li><a href="#FAQ">Section 3</a>
-</ul>
+<Nav>
+  <NavItem active>
+    <a>One</a>
+  </NavItem>
+  <NavItem>
+    <a>Two</a>
+  </NavItem>
+  <NavItem>
+    <a>Three</a>
+  </NavItem>
+  <NavItem className="button hollow primary">
+    <a>Logout</a>
+  </NavItem>
+</Nav>
