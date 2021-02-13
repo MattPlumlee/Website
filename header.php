@@ -17,12 +17,11 @@
 <body>
 <div id="container">
   <div class="row"><br>
-    <div class="col-md-3">
+    <div class="col-md-2">
       <img class="img-fluid" src="images/matthew_plumlee.jpg"  max-width="200px">
     </div>
 
-      <div class="col-md-3">  </div>
-     <div class="col-md-3">
+     <div class="col-md-2">
         <h3>Matthew Plumlee</h3>
         <p><b>Assistant Professor </b><br>
         <a href="https://www.mccormick.northwestern.edu/industrial/"> Industrial Engineering and Management Sciences </a> <br>
@@ -55,27 +54,3 @@
           </script><noscript>Sorry, you need Javascript on to email me.</noscript>
     </div>
 </div>
-
-
-<nav id="navbar-primary" class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
