@@ -17,7 +17,7 @@
 <body>
 <div id="container">
   <div class="row"><br>
-    <div class="three columns offset-by-two">
+    <div class="col-md-4">
       <img class="thumbnail img-responsive" src="images/matthew_plumlee.jpg">
     </div>
 
