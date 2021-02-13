@@ -3271,10 +3271,10 @@ class SimpleDisplay  {
   function sectionHeader($bib, $pred) {
     switch(BIBTEXBROWSER_LAYOUT) {
       case 'table':
-        return '<tr><td colspan="2" class="'.$this->headerCSS.'">'.$bib->getYear().'</td></tr>'."\n";
+        return '';
         break;
       case 'definition':
-        return '<div class="'.$this->headerCSS.'">'.$bib->getYear().'</div>'."\n";
+        return '';
         break;
       case 'list':
       	$string = '';
@@ -4185,7 +4185,7 @@ if (method_exists($content, 'getTitle')) {
 // now the CSS
 echo '<style type="text/css"><!--  '."\n";
 
-bibtexbrowserDefaultCSS(); 
+bibtexbrowserDefaultCSS();
 
 echo "\n".' --></style>';
 
