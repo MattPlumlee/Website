@@ -8,12 +8,11 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Matthew Plumlee - Northwestern </title>
-  <link rel="stylesheet" href="stylesheets/bibtexbrowser.css">
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" type="text/css"  href="stylesheets/bibtexbrowser.css">
+  <link rel="stylesheet" type="text/css"  href="stylesheets/foundation.css">
+  <link rel="stylesheet" type="text/css"  href="stylesheets/app.css">
   <link rel="canonical" href="/">
 </head>
 
