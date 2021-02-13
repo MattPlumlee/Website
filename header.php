@@ -18,7 +18,7 @@
 <div class="container-fluid">
   <div class="row"><br>
     <div class="col-md-2">
-      <img class="img" src="images/matthew_plumlee.jpg"  max-width="200px">
+      <img class="rounded float-left" src="images/matthew_plumlee.jpg"  max-width="200px">
     </div>
 
      <div class="col-md-2">
