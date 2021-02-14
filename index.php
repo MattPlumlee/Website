@@ -2,9 +2,6 @@
 session_start();
 ?>
 
-
-
-
 <?php include 'header.php';?>
 
 <p>I work and teach on the interface between data, technology and science.
