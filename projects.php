@@ -21,9 +21,6 @@ who design emulation and calibration tools.
 <br>
 <a href="https://surmise.readthedocs.io/en/latest/"> surmise </a>
 </li>
-<ul>
-
-<ul class="list-group">
 <li class="list-group-item">
 <img class="img-responsive" src="images/indexsetillus.png"  max-width="400px" width="300px"> <br>
 Scaling up Gaussian processes have typically meant approximations.  Not anymore!
@@ -31,12 +28,7 @@ This project is about scaling Gaussian process inference into very high demensio
 using grid-based structures.  These are much more flexible compared to simple
 Cartesian products.
 <br>
-<br>
 </li>
-<ul>
-
-
-<ul class="list-group">
 <li class="list-group-item">
 <img class="img-responsive" src="https://bandframework.github.io/images/logopic/BAND_logo_v2.png"  max-width="400px" width="300px"> <br>
 The Bayesian Analysis of Nuclear Dynamics (BAND) Framework will use advanced statistical methods to produce forecasts
