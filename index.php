@@ -33,7 +33,7 @@ $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
 foreach ($entries as $bibentry) {
-  echo "<li class="list-group-item">".$bibentry->toHTML()."</li>";
+  echo "<li class=\"list-group-item\">".$bibentry->toHTML()."</li>";
 }
 ?>
 </ul>
@@ -46,7 +46,7 @@ $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
 foreach ($entries as $bibentry) {
-  echo "<li class="list-group-item">".$bibentry->toHTML()."</li>";
+  echo "<li class=\list-group-item\">".$bibentry->toHTML()."</li>";
 }
 ?>
 </ul>
