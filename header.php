@@ -60,9 +60,9 @@
 </div>
 
 
-<nav class="navbar navbar-expand-md bg-transparent justify-content-center ">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-md bg-transparent justify-content-center navbar-light">
+  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon" ></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav mr-auto">
