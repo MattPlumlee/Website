@@ -1452,9 +1452,6 @@ class BibEntry {
     * */
   function getPublisher() {
     // citation_publisher
-    if ($this->hasField("publisher")) {
-      return $this->getField("publisher");
-    }
     if ($this->getType()=="phdthesis") {
       return $this->getField(SCHOOL);
     }
