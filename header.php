@@ -60,7 +60,28 @@
 </div>
 
 
-<nav class="navbar navbar-expand-lg bg-light justify-content-center bg-transparent">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+
+<nav class="navbar navbar-expand-ls bg-light justify-content-center bg-transparent">
   <!-- Brand -->
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -68,9 +89,9 @@
   </button>
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav>
-      <li class="nav-item ">
-        <a class="nav-link" href="index.php">Home</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="papers.php">Papers</a>
