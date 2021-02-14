@@ -9,6 +9,10 @@
     width: 100%;
 }
 
-.navbar-brand, .nav > li > a {
-  padding: 30px 15px;
-}
+.nav a{
+    color: white !important;
+    font-size: 1.8em !important;
+    }
+.nav li{
+    padding-right:25px;
+   }
