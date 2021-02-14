@@ -26,7 +26,7 @@ $db->load('plumleebib.bib');
 <h3>research
 
 <h4>select theory/methodology pubs </h4>
-<ul>
+<ul style="list-style-type:none;">
 <?php
 $query = array('highlightmethod'=>'1');
 $entries=$db->multisearch($query);
@@ -39,7 +39,7 @@ foreach ($entries as $bibentry) {
 </ul>
 
 <h4>select  application pubs </h4>
-<ul>
+<ul style="list-style-type:none;">
 <?php
 $query = array('highlightappl'=>'1');
 $entries=$db->multisearch($query);

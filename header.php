@@ -76,6 +76,9 @@
       <li class="nav-item">
         <a class="nav-link" href="papers.php">Papers</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="software.php">Software</a>
+      </li>
     </ul>
   </div>
 </nav>
