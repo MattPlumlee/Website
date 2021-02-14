@@ -17,7 +17,7 @@ My research covers experimental and computational methods for combining observat
 
 <?php
 $_GET['library']=1;
-require_once('bibtexbrowser.php');
+require_once('bibtexbrowserv1.php');
 global $db;
 $db = new BibDataBase();
 $db->load('plumleebib.bib');
