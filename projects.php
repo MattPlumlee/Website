@@ -12,13 +12,12 @@ This a non-exhausitive, often intertwined collection of projects of current inte
 <ul class="list-group">
 <li class="list-group-item">
 
-<div class="row"><br>
-<div class="col-sm">
+<div class="flex-container">
+<div>
 <p4> <a href="https://surmise.readthedocs.io/en/latest/"> surmise</a>   </p4>
 <img class="img-responsive" src="https://avatars.githubusercontent.com/u/77858356?s=200&v=4"  max-width="200px" width="100px"> <br>
 </div>
-
-<div class="col-sm">
+<div>
 Are you sick of redesigning interfaces every time you write code for a new emulator?  The surmise seeks to solve
 that problem by automating the interface between surrogates, or emulators, and calibration, uncetainity quanitficaiton,
 and hopefully more to come.  The goal of this project is a one-stop-shop for
