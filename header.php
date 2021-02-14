@@ -61,7 +61,7 @@
 </div>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+<nav class="navbar navbar-expand-sm navbar-light bg-transparent justify-content-center">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
