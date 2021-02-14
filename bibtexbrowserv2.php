@@ -2465,8 +2465,8 @@ function JanosBibliographyStyle($bibentry) {
   if ($type=="software") {
       $abstract = '';
       if ($bibentry->hasField('abstract')) {
-        $abstract = '<br> <div class="bibentry-label">Abstract:</div><div class="bibentry-abstract">'.$bibentry->getAbstract().' <br> </div>';
-      }
+        $entry[] =  '<br> <div class="bibentry-label">Abstract:</div><div class="bibentry-abstract">'.$bibentry->getField("abstract")' <br> </div>';
+        }
   }
 
   $result = implode(", ",$entry).'.';
