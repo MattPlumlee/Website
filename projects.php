@@ -7,7 +7,10 @@ session_start();
 
 <h3>projects</h3>
 
-This a non-exhausitive, often intertwined collection of projects of current interest.
+This a non-exhausitive, often intertwined collection of around 3 projects
+of current interest.   Generally I am excited by the interface of computational
+models and statistical inference such as emulation, calibration and uncertainty
+quantification.
 
 <ul class="list-group">
 <li class="list-group-item">
@@ -33,11 +36,16 @@ using grid-based structures.  These are much more flexible compared to simple
 Cartesian products.
 </li>
 <li class="list-group-item">
+<div class="flex-container">
+<div class="float-child">
 <a href="https://bandframework.github.io/">
-<img class="img-responsive" src="https://bandframework.github.io/images/logopic/BAND_logo_v2.png"  max-width="400px" width="300px"> </a>  
+<img class="img-responsive" src="https://bandframework.github.io/images/logopic/BAND_logo_v2.png"  max-width="400px" width="300px"> </a>
+</div>
+<div class="float-child">
 The Bayesian Analysis of Nuclear Dynamics (BAND) Framework will use advanced statistical methods to produce forecasts
 for as-yet-unexplored situations that combine nuclear-physics models in an optimal way.  This is a large collaboration that is
 spread across 4 institutions.
+</div>
 </li>
 <ul>
 
