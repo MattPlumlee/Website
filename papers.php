@@ -20,7 +20,7 @@ There is a chance of odd entries as this is automatically generated, let me know
 
 <ul>
 <?php
-$query = array('year'=>'.*');
+$query = array(Q_TYPE=>'article'|'inproceedings');
 $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
