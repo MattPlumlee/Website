@@ -8,3 +8,7 @@
 	max-width: 600px;
     width: 100%;
 }
+
+.navbar-brand, .nav > li > a {
+  padding: 30px 15px;
+}
