@@ -2365,12 +2365,6 @@ function DefaultBibliographyStyle($bibentry) {
 
   if ($bibentry->hasField(YEAR)) $entry[] = '<span itemprop="datePublished">'.$bibentry->getYear().'</span>';
 
-  if ($type=="software") {
-      $abstract = '';
-      if ($this->bib->hasField('abstract')) {
-        $abstract = '<br> <div class="bibentry-label">Abstract:</div><div class="bibentry-abstract">'.$bibentry->getAbstract().' <br> </div>';
-      }
-  }
 
 
   $result = implode(", ",$entry).'.';
@@ -2469,6 +2463,14 @@ function JanosBibliographyStyle($bibentry) {
 
 
   if ($bibentry->hasField(YEAR)) $entry[] = $bibentry->getYear();
+
+
+  if ($type=="software") {
+      $abstract = '';
+      if ($this->bib->hasField('abstract')) {
+        $abstract = '<br> <div class="bibentry-label">Abstract:</div><div class="bibentry-abstract">'.$bibentry->getAbstract().' <br> </div>';
+      }
+  }
 
   $result = implode(", ",$entry).'.';
 
