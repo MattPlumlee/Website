@@ -21,8 +21,6 @@ nav {
    }
 
 .list-group-item{
-   font-size:16px;
-   font-color:black;
    display:inline;
    background-color: rgb(240, 255, 251);
  }
