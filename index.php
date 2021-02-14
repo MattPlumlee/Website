@@ -23,7 +23,7 @@ $db = new BibDataBase();
 $db->load('plumleebib.bib');
 ?>
 
-<h3>research 
+<h3>research
 
 <h4>select theory/methodology pubs </h4>
 <ul>
