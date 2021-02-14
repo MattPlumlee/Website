@@ -1452,15 +1452,6 @@ class BibEntry {
     * */
   function getPublisher() {
     // citation_publisher
-    if ($this->getType()=="phdthesis") {
-      return $this->getField(SCHOOL);
-    }
-    if ($this->getType()=="mastersthesis") {
-      return $this->getField(SCHOOL);
-    }
-    if ($this->getType()=="bachelorsthesis") {
-      return $this->getField(SCHOOL);
-    }
     if ($this->getType()=="techreport") {
       return $this->getField("institution");
     }
