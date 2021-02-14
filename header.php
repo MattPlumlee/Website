@@ -18,7 +18,7 @@
 
 <body>
 
-<div class="container-sm border">.container-sm</div>
+<div class="container-sm">.container-sm</div>
 
 <div class="container-lg mt-3">
   <div class="row"><br>
