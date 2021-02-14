@@ -1504,9 +1504,7 @@ class BibEntry {
       return $this->formatAuthorCommaSeparated($author);
     }
 
-    if (bibtexbrowser_configuration('USE_INITIALS_FOR_NAMES')) {
-      return $this->formatAuthorInitials($author);
-    }
+    return $this->formatAuthorInitials($author);
 
     if (bibtexbrowser_configuration('USE_FIRST_THEN_LAST')) {
       return $this->formatAuthorCanonical($author);
@@ -2429,7 +2427,7 @@ function JanosBibliographyStyle($bibentry) {
   }
 
   if ($type=="article" && $bibentry->hasField("journal")) {
-      $booktitle = '<span class="bibbooktitle">'.'In '.$bibentry->getField("journal").'</span>';
+      $booktitle = '<span class="bibbooktitle">'.$bibentry->getField("journal").'</span>';
   }
 
 
