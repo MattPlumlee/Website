@@ -23,7 +23,7 @@ $db = new BibDataBase();
 $db->load('plumleebib.bib');
 ?>
 
-<h3>research   <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" >[google scholar page] </a>  </h3>
+<h3>research 
 
 <h4>select theory/methodology pubs </h4>
 <ul>
