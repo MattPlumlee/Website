@@ -2462,7 +2462,7 @@ function JanosBibliographyStyle($bibentry) {
 
   if ($bibentry->hasField(YEAR)) $entry[] = $bibentry->getYear();
 
-  if ($type=="Manual") {
+  if ($type=="manual") {
       if ($bibentry->hasField('abstract')) {
         $entry[] =  '<div class="bibentry-label">Short Summary:</div><div class="bibentry-abstract">'.$bibentry->getField("abstract").'</div>';
         }
