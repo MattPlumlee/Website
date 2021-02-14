@@ -2462,13 +2462,14 @@ function JanosBibliographyStyle($bibentry) {
 
   if ($bibentry->hasField(YEAR)) $entry[] = $bibentry->getYear();
 
-  if ($type=="manual") {
-      if ($bibentry->hasField('abstract')) {
-        $entry[] =  '<div class="bibentry-label">Short Summary:</div><div class="bibentry-abstract">'.$bibentry->getField("abstract").'</div>';
-        }
-  }
-
   $result = implode(", ",$entry).'.';
+
+    if ($type=="manual") {
+        if ($bibentry->hasField('abstract')) {
+          $entry[] =  '<div class="bibentry-label">Short Summary:</div><div class="bibentry-abstract">'.$bibentry->getField("abstract").'</div>';
+          }
+    }
+
   // add the Coin URL
   $result .=  "\n".$bibentry->toCoins();
 
