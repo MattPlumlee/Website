@@ -17,13 +17,13 @@ My research covers experimental and computational methods for combining observat
 
 <?php
 $_GET['library']=1;
-require_once('bibtexbrowserv1.php');
+require_once('bibtexbrowser.php');
 global $db;
 $db = new BibDataBase();
 $db->load('plumleebib.bib');
 ?>
 
-<h3>research 
+<h3>research
 
 <h4>select theory/methodology pubs </h4>
 <ul>

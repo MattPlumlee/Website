@@ -6,7 +6,7 @@ session_start();
 
 <?php
 $_GET['library']=1;
-require_once('bibtexbrowserv1.php');
+require_once('bibtexbrowser.php');
 global $db;
 $db = new BibDataBase();
 $db->load('plumleebib.bib');
