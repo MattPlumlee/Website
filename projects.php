@@ -13,8 +13,8 @@ This a non-exhausitive, often intertwined collection of projects of current inte
 <li class="list-group-item">
 <div class="flex-container">
 <div class="float-child">
- <a href="https://surmise.readthedocs.io/en/latest/"> surmise</a>
-<img class="img-responsive" src="https://avatars.githubusercontent.com/u/77858356?s=200&v=4"  max-width="200px" width="100px"> <br>
+ <a href="https://surmise.readthedocs.io/en/latest/">
+<img class="img-responsive" src="https://avatars.githubusercontent.com/u/77858356?s=200&v=4"  max-width="200px" width="100px"> </a>
 </div>
 <div class="float-child">
 Are you sick of redesigning interfaces every time you write code for a new emulator?  The surmise seeks to solve
@@ -33,8 +33,8 @@ using grid-based structures.  These are much more flexible compared to simple
 Cartesian products.
 </li>
 <li class="list-group-item">
-<p4> <a href="https://bandframework.github.io/"> Get on the BAND wagon </a>   </p4>
-<img class="img-responsive" src="https://bandframework.github.io/images/logopic/BAND_logo_v2.png"  max-width="400px" width="300px"> <br>
+<a href="https://bandframework.github.io/">
+<img class="img-responsive" src="https://bandframework.github.io/images/logopic/BAND_logo_v2.png"  max-width="400px" width="300px"> </a>  
 The Bayesian Analysis of Nuclear Dynamics (BAND) Framework will use advanced statistical methods to produce forecasts
 for as-yet-unexplored situations that combine nuclear-physics models in an optimal way.  This is a large collaboration that is
 spread across 4 institutions.
