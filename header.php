@@ -60,7 +60,7 @@
 </div>
 
 
-<div class="container-lg">
+<div class="container-xs">
 <nav class="navbar navbar-expand bg-light justify-content-center bg-transparent">
   <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
   <span class="icon-bar"></span>
@@ -68,7 +68,7 @@
   <span class="icon-bar"></span>
   </a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
