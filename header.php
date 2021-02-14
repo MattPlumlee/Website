@@ -60,7 +60,7 @@
 </div>
 
 
-<nav class="navbar navbar-expand bg-light justify-content-center bg-transparent">
+<nav class="navbar navbar-expand-lg bg-light justify-content-center bg-transparent">
   <!-- Brand -->
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
