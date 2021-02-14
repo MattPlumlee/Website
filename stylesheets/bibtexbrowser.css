@@ -4,40 +4,14 @@
 .sheader {  display:none;}
 .sheader {  display:none;}
 
-.header-container, .body-container, .footer-container {
-	max-width: 600px;
-    width: 100%;
-}
 
 nav {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
 }
-nav ul{
-    padding: 0;
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 5px 0;
-    width: 20%;    /*** make the centering look more vivid ****/
-    background: #Cc3399;
-    color: #eee;
-    float: left;
-    text-align: center;
-    border-left: 1px solid #fff;
-
-}
-
-nav ul li a:hover {
-    background: #a2b3a1;
-    color: #000
-}
+.nav a{
+    color: white !important;
+    font-size: 1.8em !important;
+    }
+.nav li{
+    padding-right:25px;
+   }
