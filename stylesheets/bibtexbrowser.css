@@ -22,5 +22,9 @@ nav {
    font-color:black;
    padding:5%;
    display:inline;
-   background-color: rgb(242, 256, 251);
+   background-color: rgb(248, 250, 251);
  }
+
+.list-group{
+  style=list-style-type:none;
+}
