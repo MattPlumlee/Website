@@ -52,6 +52,17 @@ foreach ($entries as $bibentry) {
 ?>
 </ul>
 
+
+<h3>advising</h3>
+<ul style="list-style-type:none;">
+<li> Ozge Surer (with Stefan Wild), Current  Postdoc 2020-   </li>
+<li> David Eckman  (with Barry Nelson), Current  Postdoc 2019-   </li>
+<li> Eugene Wicket   (with Karen Smilowitz), Current PhD Student   </li>
+<li> Moses Chan, Current PhD 2017-   </li>
+<li> Collin Erickson  (with Bruce Ankenman), PhD awarded 2019   </li>
+<li> Wenbo Sun (with Judy Jin), PhD awarded 2018  </li>
+</ul>
+
 <h3>teaching</h3>
 <ul style="list-style-type:none;">
 <li> IEMS 490, Principals of Uncertainty Quantification, Northwestern University:  Winter 2021 </li>
@@ -71,6 +82,15 @@ foreach ($entries as $bibentry) {
  &nbsp;&nbsp; co-PI,  08/2020-08/2023
 <li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 </li>
  &nbsp;&nbsp;  Local PI,  06/2017-06/2018
+</ul>
+
+<h3>service</h3>
+<ul style="list-style-type:none;">
+<li>  Associate Editor, Technometrics, 2019-  </li>
+<li> Organizing Committee, Statistical perspectives on uncertainty quantification, 2017
+<li>  Best student paper competition organizer, INFORMS Quality, Reliability and Statistics Section, 2018  </li>
+<li>  Advisory council, INFORMS Quality, Reliability and Statistics Section, 2016-2018  </li>
+<li>  Treasurer, ASA Quality and Productivity Section, 2016-2018  </li>
 </ul>
 
 
