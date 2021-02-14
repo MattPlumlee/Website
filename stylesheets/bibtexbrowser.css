@@ -17,6 +17,10 @@ nav {
     padding-right:25px;
    }
 
-li {
-    background-color:white;
-}
+.list-group-item{
+   font-size:14px;
+   font-color:black;
+   padding:5%;
+   display:inline;
+   background-color: rgb(242, 256, 251);
+ }
