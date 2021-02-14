@@ -11,7 +11,6 @@ This a non-exhausitive, often intertwined collection of projects of current inte
 
 <ul class="list-group">
 <li class="list-group-item">
-
 <div class="flex-container">
 <div class="float-child">
  <a href="https://surmise.readthedocs.io/en/latest/"> surmise</a>
@@ -23,6 +22,7 @@ that problem by automating the interface between surrogates, or emulators, and c
 and hopefully more to come.  The goal of this project is a one-stop-shop for
 researchers interested in using emulation and calibration tools and researchers
 who design emulation and calibration tools.
+</div>
 </div>
 </li>
 </div>
