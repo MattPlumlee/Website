@@ -25,7 +25,7 @@ who design emulation and calibration tools.
 
 <ul class="list-group">
 <li class="list-group-item">
-<img class="img-responsive" src="/images/indexsetillus.png"  max-width="400px" width="300px"> <br>
+<img class="img-responsive" src="images/indexsetillus.png"  max-width="400px" width="300px"> <br>
 Scaling up Gaussian processes have typically meant approximations.  Not anymore!
 This project is about scaling Gaussian process inference into very high demensions
 using grid-based structures.  These are much more flexible compared to simple
