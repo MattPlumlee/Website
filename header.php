@@ -60,11 +60,8 @@
 </div>
 
 
-<div class="container-xs">
 <nav class="navbar navbar-expand bg-light justify-content-center bg-transparent">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
-
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -87,4 +84,3 @@
     </ul>
   </div>
 </nav>
-</div>
