@@ -60,6 +60,7 @@
 </div>
 
 
+<div class="container-sm"></div>
 <nav class="navbar navbar-expand-sm bg-light justify-content-center bg-transparent">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -72,3 +73,4 @@
     </ul>
   </div>
 </nav>
+</div>
