@@ -4,6 +4,9 @@
 .sheader {  display:none;}
 .sheader {  display:none;}
 
+.button {border-radius: 2px;
+  color: black;
+}
 
 nav {
     width: 100%;
