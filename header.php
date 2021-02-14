@@ -79,6 +79,9 @@
       <li class="nav-item">
         <a class="nav-link" href="software.php">Software</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.php">Projects</a>
+      </li>
     </ul>
   </div>
 </nav>
