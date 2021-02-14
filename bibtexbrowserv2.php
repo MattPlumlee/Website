@@ -2462,8 +2462,8 @@ function JanosBibliographyStyle($bibentry) {
 
   if ($bibentry->hasField(YEAR)) $entry[] = $bibentry->getYear();
 
-  $result = implode(", ",$entry).'.';
 
+  $result = implode(", ",$entry).'.';
   // add the Coin URL
   $result .=  "\n".$bibentry->toCoins();
 
