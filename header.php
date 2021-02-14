@@ -62,6 +62,12 @@
 
 <div class="container-lg">
 <nav class="navbar navbar-expand bg-light justify-content-center bg-transparent">
+  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  </a>
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
