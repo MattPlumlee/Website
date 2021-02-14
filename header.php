@@ -61,7 +61,7 @@
 
 
 <nav class="navbar navbar-expand-sm bg-transparent justify-content-center navbar-light">
-  <button class="navbar-toggler navbar-light justify-content-left" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <button class="navbar-toggler navbar-light float-sm-left" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon" ></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
