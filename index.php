@@ -26,27 +26,27 @@ $db->load('plumleebib.bib');
 <h3>research
 
 <h4>select theory/methodology pubs </h4>
-<ul style="list-style-type:none;">
+<ul class="list-group">
 <?php
 $query = array('highlightmethod'=>'1');
 $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
 foreach ($entries as $bibentry) {
-  echo "<li>".$bibentry->toHTML()."</li>";
+  echo "<li class="list-group-item">".$bibentry->toHTML()."</li>";
 }
 ?>
 </ul>
 
 <h4>select  application pubs </h4>
-<ul style="list-style-type:none;">
+<ul class="list-group">
 <?php
 $query = array('highlightappl'=>'1');
 $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
 foreach ($entries as $bibentry) {
-  echo "<li>".$bibentry->toHTML()."</li>";
+  echo "<li class="list-group-item">".$bibentry->toHTML()."</li>";
 }
 ?>
 </ul>
