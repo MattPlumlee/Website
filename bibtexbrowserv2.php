@@ -2029,7 +2029,7 @@ function bib2links_default($bibentry) {
     if ($link != '') { $links[] = $link; };
   }
 
-  return '<span class="bibmenu">'."<br>".implode(" ",$links).'</span>';
+  return '<span class="bibmenu">'."<br> &emsp".implode(" ",$links).'</span>';
 }
 
 
