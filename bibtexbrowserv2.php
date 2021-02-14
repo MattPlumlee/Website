@@ -168,7 +168,7 @@ if (defined('ENCODING')) {
 // USE_INITIALS_FOR_NAMES = true => "Meyer H"
 // USE_FIRST_THEN_LAST => Herbert Meyer
 @define('USE_COMMA_AS_NAME_SEPARATOR_IN_OUTPUT',false);// output authors in a comma separated form, e.g. "Meyer, H"?
-@define('USE_INITIALS_FOR_NAMES',false); // use only initials for all first names?
+@define('USE_INITIALS_FOR_NAMES',true); // use only initials for all first names?
 @define('USE_FIRST_THEN_LAST',false); // put first names before last names?
 @define('FORCE_NAMELIST_SEPARATOR', ''); // if non-empty, use this to separate multiple names regardless of USE_COMMA_AS_NAME_SEPARATOR_IN_OUTPUT
 @define('LAST_AUTHOR_SEPARATOR',' and ');
