@@ -20,11 +20,11 @@ nav {
 .list-group-item{
    font-size:14px;
    font-color:black;
-   padding:5%;
+   padding:10%;
    display:inline;
-   background-color: rgb(248, 250, 251);
+   background-color: rgb(251, 251, 251);
  }
 
 .list-group{
-  list-style-type:none;
+  style=list-style-type:none;
 }
