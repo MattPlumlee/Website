@@ -25,17 +25,13 @@ who design emulation and calibration tools.
 </div>
 </div>
 </li>
-</div>
 <li class="list-group-item">
-
 <img class="img-responsive" src="images/indexsetillus.png"  max-width="400px" width="300px"> <br>
 Scaling up Gaussian processes have typically meant approximations.  Not anymore!
 This project is about scaling Gaussian process inference into very high demensions
 using grid-based structures.  These are much more flexible compared to simple
 Cartesian products.
-<br>
 </li>
-
 <li class="list-group-item">
 <p4> <a href="https://bandframework.github.io/"> Get on the BAND wagon </a>   </p4>
 <img class="img-responsive" src="https://bandframework.github.io/images/logopic/BAND_logo_v2.png"  max-width="400px" width="300px"> <br>
