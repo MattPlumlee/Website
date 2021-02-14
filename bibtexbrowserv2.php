@@ -2447,9 +2447,6 @@ function JanosBibliographyStyle($bibentry) {
         $publisher .= ' '.$bibentry->getField("number");
       }
   }
-  if ($bibentry->hasField("publisher")) {
-    $publisher = $bibentry->getField("publisher");
-  }
 
   if ($publisher!='') $entry[] = $publisher;
 
