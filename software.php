@@ -9,7 +9,7 @@ $_GET['library']=1;
 require_once('bibtexbrowserv2.php');
 global $db;
 $db = new BibDataBase();
-$db->load('plumleebib.bib');
+$db->load('software.bib');
 ?>
 
 <h4>software packages</h4>
