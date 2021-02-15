@@ -85,7 +85,7 @@
 <script id="add-active-to-current-page-nav-link" type="text/javascript">
     function setSelectedPageNav() {
         var pathName = document.location.href;
-        const getLastItem = pathName => pathName.substring(pathName.lastIndexOf('/') + 1)
+        var getLastItem = pathName.substring(pathName.lastIndexOf('/') + 1)
 
         document.write(getLastItem);
         if ($("nav ul li a") != null) {
