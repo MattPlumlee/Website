@@ -4,13 +4,14 @@ session_start();
 
 <?php include 'header.php';?>
 
-
 <script type="text/javascript">
-$(document).ready(function(){
-   $(".active").removeClass("active");
-   $("#projects").addClass("active");
-});
+  var loc = window.location.pathname;
+
+   $('#navigation').find('a').each(function() {
+     $(this).toggleClass('active', $(this).attr('href') == loc);
+  });
 </script>
+
 
 
 <h3>projects</h3>

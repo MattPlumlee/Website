@@ -12,10 +12,11 @@ $db = new BibDataBase();
 $db->load('software.bib');
 ?>
 <script type="text/javascript">
-$(document).ready(function(){
-   $(".active").removeClass("active");
-   $("#software").addClass("active");
-});
+  var loc = window.location.pathname;
+
+   $('#navigation').find('a').each(function() {
+     $(this).toggleClass('active', $(this).attr('href') == loc);
+  });
 </script>
 
 <h3>software packages</h3>
