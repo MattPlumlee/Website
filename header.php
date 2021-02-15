@@ -81,3 +81,13 @@
     </ul>
   </div>
 </nav>
+
+<script id="add-active-to-current-page-nav-link" type="text/javascript">
+    function setSelectedPageNav() {
+        var pathName = document.location.pathname;
+        if ($("nav ul li a") != null) {
+            var currentLink = $("nav ul li a[href='" + pathName + "']");
+            currentLink.addClass("active");
+        }
+    }
+</script>  

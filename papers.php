@@ -5,14 +5,9 @@ session_start();
 <?php include 'header.php';?>
 
 
-<script type="text/javascript">
-  var loc = window.location.pathname;
-
-   $('#navigation').find('a').each(function() {
-     $(this).toggleClass('active', $(this).attr('href') == loc);
-  });
+<script>
+    setSelectedPageNav();
 </script>
-
 
 <?php
 $_GET['library']=1;
