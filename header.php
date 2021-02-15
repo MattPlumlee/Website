@@ -84,7 +84,7 @@
 
 <script id="add-active-to-current-page-nav-link" type="text/javascript">
     function setSelectedPageNav() {
-        $(".nav").find(".active").removeClass("active");
+        $("nav ul li").removeClass("active");
         var pathName = document.location.href;
         var getLastItem = pathName.substring(pathName.lastIndexOf('/') + 1)
         if ($("nav ul li a") != null) {
