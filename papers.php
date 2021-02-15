@@ -4,6 +4,15 @@ session_start();
 
 <?php include 'header.php';?>
 
+
+<script type="text/javascript">
+$(document).ready(function(){
+   $(".active").removeClass("active");
+   $("#papers").addClass("active");
+});
+</script>
+
+
 <?php
 $_GET['library']=1;
 require_once('bibtexbrowserv2.php');

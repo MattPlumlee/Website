@@ -5,6 +5,14 @@ session_start();
 <?php include 'header.php';?>
 
 
+<script type="text/javascript">
+$(document).ready(function(){
+   $(".active").removeClass("active");
+   $("#projects").addClass("active");
+});
+</script>
+
+
 <h3>projects</h3>
 
 This a non-exhausitive, often intertwined collection of around 3 projects

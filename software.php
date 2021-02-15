@@ -11,6 +11,12 @@ global $db;
 $db = new BibDataBase();
 $db->load('software.bib');
 ?>
+<script type="text/javascript">
+$(document).ready(function(){
+   $(".active").removeClass("active");
+   $("#software").addClass("active");
+});
+</script>
 
 <h3>software packages</h3>
 

@@ -4,6 +4,14 @@ session_start();
 
 <?php include 'header.php';?>
 
+<script type="text/javascript">
+$(document).ready(function(){
+   $(".active").removeClass("active");
+   $("#home").addClass("active");
+});
+</script>
+
+
 <p>I work and teach on the interface between data, technology and science.
 My research covers experimental and computational methods for combining observations and simulation models for descriptive, predictive and prescriptive purposes in large-data environments.
  The major tools used are machine learning and statistical analysis, large-scale optimization and designed experimentation including sequential design.</p>
