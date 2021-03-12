@@ -59,8 +59,8 @@ foreach ($entries as $bibentry) {
 
 <h3>advising</h3>
 <ul style="list-style-type:none;">
-<li> <a href="https://ozgesurer.github.io/OS/"> Ozge Surer <a> (with Stefan Wild), Current  Postdoc 2020-   </li>
-<li> <a href="https://sites.northwestern.edu/eckman/"> David Eckman <a>  (with Barry Nelson), Current  Postdoc 2019-   </li>
+<li> <a href="https://ozgesurer.github.io/OS/"> Ozge Surer </a> (with Stefan Wild), Current  Postdoc 2020-   </li>
+<li> <a href="https://sites.northwestern.edu/eckman/"> David Eckman </a>  (with Barry Nelson), Current  Postdoc 2019-   </li>
 <li> Eugene Wickett   (with Karen Smilowitz), Current PhD Student   </li>
 <li> Moses Chan, Current PhD Student    </li>
 <li> Collin Erickson  (with Bruce Ankenman), PhD awarded 2019   </li>
@@ -78,20 +78,20 @@ foreach ($entries as $bibentry) {
 </ul>
 <h3> funding </h3>
 <ul style="list-style-type:none;">
-<li> Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, OAC 2004601 <br>
+<li> Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2004601">OAC 2004601</a> <br>
  &nbsp;&nbsp;  Senior Personnel (11 PI, co-PI and Senior Personnel),  07/2020-07/2025 </li>
-<li> Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, DMS 1953111 <br>
+<li> Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1953111">DMS 1953111</a> <br>
  &nbsp;&nbsp; PI,  08/2020-08/2023 </li>
-<li> Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, DMS 1952897  <br>
+<li> Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1952897"> DMS 1952897 </a> <br>
  &nbsp;&nbsp; co-PI,  08/2020-08/2023</li>
-<li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 <br>
+<li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1744186">CMMI 1744186</a> <br>
  &nbsp;&nbsp;  Local PI,  06/2017-06/2018  </li>
 </ul>
 
 <h3>service</h3>
 <ul style="list-style-type:none;">
-<li>  Associate Editor, Technometrics, 2019-  </li>
-<li> Organizing Committee, Statistical perspectives on uncertainty quantification, 2017
+<li>  Associate Editor, <a href="https://www.tandfonline.com/toc/utch20/current">Technometrics </a>, 2019-  </li>
+<li> Organizing Committee, <a href="https://sites.gatech.edu/spuq-2017/">Statistical perspectives on uncertainty quantification</a>, 2017
 <li>  Best student paper competition organizer, INFORMS Quality, Reliability and Statistics Section, 2018  </li>
 <li>  Advisory council, INFORMS Quality, Reliability and Statistics Section, 2016-2018  </li>
 <li>  Treasurer, ASA Quality and Productivity Section, 2016-2018  </li>
