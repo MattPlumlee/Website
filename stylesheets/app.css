@@ -26,6 +26,9 @@ h4 {font-size: 18pt;}
 h4 {font-size: 16pt;}
 
 
+li {margin-bottom: 40px;}
+li:last-child {margin-bottom: 0px;}
+
 ul {padding-left: 1em;}
 
 small {font-size: 10pt}
