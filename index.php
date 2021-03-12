@@ -78,14 +78,14 @@ foreach ($entries as $bibentry) {
 </ul>
 <h3> funding </h3>
 <ul style="list-style-type:none;">
-<li> Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, OAC 2004601</li>
- &nbsp;&nbsp;  Senior Personnel (11 PI, co-PI and Senior Personnel),  07/2020-07/2025
-<li> Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, DMS 1953111 </li>
- &nbsp;&nbsp; PI,  08/2020-08/2023
-<li> Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, DMS 1952897 </li>
- &nbsp;&nbsp; co-PI,  08/2020-08/2023
-<li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 </li>
- &nbsp;&nbsp;  Local PI,  06/2017-06/2018
+<li> Frameworks: Bayesian Analysis of Nuclear Dynamics. National Science Foundation, OAC 2004601 <br>
+ &nbsp;&nbsp;  Senior Personnel (11 PI, co-PI and Senior Personnel),  07/2020-07/2025 </li>
+<li> Inducing and Exploiting Grid Structures for Fast, Adaptive, and Accurate Estimation. National Science Foundation, DMS 1953111 <br>
+ &nbsp;&nbsp; PI,  08/2020-08/2023 </li>
+<li> Collaborative Research: Variational Inference Approach to Computer Model Calibration, Uncertainty Quantification, Scalability, and Robustness. National Science Foundation, DMS 1952897  <br>
+ &nbsp;&nbsp; co-PI,  08/2020-08/2023</li>
+<li> EAGER/Collaborative Research: Exploring the Theoretical Framework of Engineering Knowledge Transfer in Cybermanufacturing Systems. National Science Foundation, CMMI 1744186 <br>
+ &nbsp;&nbsp;  Local PI,  06/2017-06/2018  </li>
 </ul>
 
 <h3>service</h3>
