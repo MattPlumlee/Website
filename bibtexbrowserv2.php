@@ -4193,6 +4193,7 @@ echo "\n".' --></style>';
 ?>
 </head>
 <body>
+  <div class="container-lg mt-3">
 <?php
 // configuration point to add a banner
 echo bibtexbrowser_top_banner();
@@ -4204,7 +4205,7 @@ if (method_exists($content, 'getTitle')) {
 ?>
 <?php
   $content->display();
-  echo poweredby();
+  //echo poweredby();
 
   if (c('BIBTEXBROWSER_USE_PROGRESSIVE_ENHANCEMENT')) {
     javascript();
@@ -4214,6 +4215,7 @@ if (method_exists($content, 'getTitle')) {
     javascript_math();
   }
 ?>
+</div>
 </body>
 </html>
 <?php
