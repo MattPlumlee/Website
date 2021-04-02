@@ -3431,7 +3431,7 @@ class BibEntryDisplay {
       $reference= '<div class="bibentry-label">Reference:</div><div class="bibentry-reference">'.strip_tags(bib2html($this->bib)).'</div>';
 
       $bibtex = '<div class="bibentry-label">Bibtex Entry:</div>'.$this->bib->toEntryUnformatted().'';
-      return $subtitle.$abstract.$download.$reference.$bibtex.$this->bib->toCoins();
+      return $this->bib->toCoins();
   }
 
   function display() {
