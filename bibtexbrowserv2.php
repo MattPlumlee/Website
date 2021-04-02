@@ -1926,7 +1926,7 @@ class BibEntry {
    */
   function toEntryUnformatted() {
     $result = "";
-    $result .= '<pre class="purebibtex">'; // pre is nice when it is embedded with no CSS available
+    //$result .= '<pre class="purebibtex">'; // pre is nice when it is embedded with no CSS available
     $entry = htmlspecialchars($this->getFullText(),ENT_NOQUOTES|ENT_XHTML, OUTPUT_ENCODING);
 
     // Fields that should be hyperlinks
@@ -1950,7 +1950,7 @@ class BibEntry {
     }
 
     $result .=  $entry;
-    $result .=  '</pre>';
+    //$result .=  '</pre>';
     return $result;
    }
 
