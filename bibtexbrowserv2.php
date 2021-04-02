@@ -4191,6 +4191,11 @@ else {  bibtexbrowserDefaultCSS(); }
 echo "\n".' --></style>';
 
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="stylesheets/bibtexbrowser.css">
+<link rel="stylesheet" type="text/css"  href="stylesheets/app.css">
+<link rel="canonical" href="/">
+
 </head>
 <body>
   <div class="container-lg mt-3">
