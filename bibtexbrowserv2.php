@@ -4110,7 +4110,7 @@ dd {
 }
 
 .purebibtex {
-  font-family: monospace;
+  /*font-family: monospace;*/
   font-size: small;
   /* border: 1px solid #DDDDDD; */
   /* background: none repeat scroll 0 0 #F5F5F5; */
