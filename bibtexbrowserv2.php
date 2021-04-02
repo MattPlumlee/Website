@@ -4112,9 +4112,6 @@ dd {
 .purebibtex {
   font-size: small;
   padding:10px;
-
-
-  clear:both;
 }
 .bibentry-by { font-style: italic; }
 .bibentry-abstract { margin:15px; }
