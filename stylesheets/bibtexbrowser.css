@@ -20,6 +20,7 @@ nav {
     font-size: 1.8em !important;
     }
 .nav li{
+    display: inline-block;
     padding-right:35px;
    }
 
