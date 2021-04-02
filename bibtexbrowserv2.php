@@ -4179,6 +4179,7 @@ if (method_exists($content, 'getCSS')) {
   readfile(dirname(__FILE__).'/bibtexbrowser.css');
 }
 else {  bibtexbrowserDefaultCSS(); }
+bibtexbrowserDefaultCSS();
 
 echo "\n".' --></style>';
 
