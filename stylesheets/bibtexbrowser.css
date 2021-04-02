@@ -20,6 +20,12 @@ nav {
     padding-right:25px;
    }
 
+ .purebibtex {
+   font-size: small;
+   padding:10px;
+   width: 200px;
+ }
+
 .list-group-item{
    display:inline;
    background-color: rgb(238, 244, 251);
