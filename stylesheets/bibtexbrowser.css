@@ -10,9 +10,9 @@
 
 nav {
   display: inline-block;
-  border-bottom: solid rgba(255,255,255,0.5);
+  border-bottom: solid rgba(0,0,0,0.75);
     width: 100%;
-    font-size: 32px !important;
+    font-size: 35px !important;
 }
 .nav a{
     color: white !important;
