@@ -1926,7 +1926,7 @@ class BibEntry {
    */
   function toEntryUnformatted() {
     $result = "";
-    //$result .= '<pre class="purebibtex">'; // pre is nice when it is embedded with no CSS available
+    $result .= '<pre class="purebibtex">'; // pre is nice when it is embedded with no CSS available
     $entry = htmlspecialchars($this->getFullText(),ENT_NOQUOTES|ENT_XHTML, OUTPUT_ENCODING);
 
     // Fields that should be hyperlinks
@@ -1950,7 +1950,7 @@ class BibEntry {
     }
 
     $result .=  $entry;
-    //$result .=  '</pre>';
+    $result .=  '</pre>';
     return $result;
    }
 
@@ -4110,14 +4110,9 @@ dd {
 }
 
 .purebibtex {
-  /*font-family: monospace;*/
   font-size: small;
-  /* border: 1px solid #DDDDDD; */
-  /* background: none repeat scroll 0 0 #F5F5F5; */
   padding:10px;
 
-  /* overflow:auto; */
-  /* width:600px; */
 
   clear:both;
 }
