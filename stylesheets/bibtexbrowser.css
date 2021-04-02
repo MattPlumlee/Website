@@ -10,7 +10,7 @@
 
 nav {
   display: inline-block;
-  border-bottom: dashed double rgba(255,255,255,0.5);
+  border-bottom: solid rgba(255,255,255,0.5);
     width: 100%;
     font-size: 32px !important;
 }
