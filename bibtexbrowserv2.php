@@ -4112,12 +4112,12 @@ dd {
 .purebibtex {
   font-family: monospace;
   font-size: small;
-  border: 1px solid #DDDDDD;
+  /* border: 1px solid #DDDDDD; */
   /* background: none repeat scroll 0 0 #F5F5F5; */
   padding:10px;
 
   /* overflow:auto; */
-  width:600px;
+  /* width:600px; */
 
   clear:both;
 }
