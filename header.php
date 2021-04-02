@@ -91,5 +91,9 @@
             var currentLink = $("nav ul li a[href='" + getLastItem + "']");
             currentLink.addClass("active");
         }
+        if (getLastItem === "") {
+            var currentLink = $("nav ul li a[href='index.php']");
+            currentLink.addClass("active");
+        }
     }
 </script>
