@@ -9,6 +9,8 @@
 }
 
 nav {
+  display: inline-block;
+  border: 2px solid black;
     width: 100%;
     font-size: 32px !important;
 }
@@ -27,7 +29,7 @@ nav {
    min-width: 200px;
  }
 
- pre {
+pre {
     white-space: pre-wrap;       /* Since CSS 2.1 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
