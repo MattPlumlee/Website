@@ -1098,7 +1098,7 @@ function latex2html($line, $do_clean_extra_bracket=true) {
   $linearr = explode(' ', $line);
   foreach($linarr as $word) {
     $word = join('R', $word);
-}
+  }
   $line = join(' ', $linearr);
   if ($do_clean_extra_bracket) {
     // clean extra tex curly brackets, usually used for preserving capitals
