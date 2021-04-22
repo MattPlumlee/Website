@@ -1098,6 +1098,7 @@ function latex2html($line, $do_clean_extra_bracket=true) {
   if ($do_clean_extra_bracket) {
     // clean extra tex curly brackets, usually used for preserving capitals
     // must come before the final math replacement
+    $line = ucfirst($line);
     $line = str_replace('}','',$line);
     $line = str_replace('{','',$line);
   }
