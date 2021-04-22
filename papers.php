@@ -52,6 +52,18 @@ foreach ($entries as $bibentry) {
 ?>
 </ul>
 
+<h4>other catagories</h4>
 
+<ul class="list-group">
+<?php
+$query = 'query' => array(Q_TYPE=>'misc|phdthesis|mastersthesis|bachelorsthesis|techreport');
+$entries=$db->multisearch($query);
+uasort($entries, 'compare_bib_entries');
+
+foreach ($entries as $bibentry) {
+  echo "\n<li class=\"list-group-item\">".$bibentry->toHTML()."</li>\n";
+}
+?>
+</ul>
 
 <?php include 'footer.php';?>
