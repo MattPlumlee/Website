@@ -34,10 +34,10 @@ foreach ($entries as $bibentry) {
 ?>
 </ul>
 
-<h4>in proceedings </h4>
+<h4>journal articles </h4>
 
 
-<ul class="journal articles">
+<ul class="list-group">
 <?php
 $query = array(Q_TYPE=>'article');
 $entries=$db->multisearch($query);
@@ -48,6 +48,9 @@ foreach ($entries as $bibentry) {
 }
 ?>
 </ul>
+
+
+<h4>in proceedings </h4>
 
 <ul class="list-group">
 <?php
