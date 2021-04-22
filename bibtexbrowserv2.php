@@ -1096,10 +1096,13 @@ function latex2html($line, $do_clean_extra_bracket=true) {
   $line = preg_replace('/\\\\textsubscript\{(.*)\}/U','<sub>\\1</sub>', $line);
 
   $linearr = explode(' ', $line);
+  foreach($linearr as $word){
+    $word = substr( $word, 4);
+  }
   //foreach($linarr as $word) {
   //  $word = join('R', $word);
   //}
-  $line = join('', $linearr);
+  $line = join(' ', $linearr);
   if ($do_clean_extra_bracket) {
     // clean extra tex curly brackets, usually used for preserving capitals
     // must come before the final math replacement
