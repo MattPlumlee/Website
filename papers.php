@@ -34,6 +34,20 @@ foreach ($entries as $bibentry) {
 ?>
 </ul>
 
+<h4>in proceedings </h4>
+
+<ul class="list-group">
+<?php
+$query = array(Q_TYPE=>'inproceedings');
+$entries=$db->multisearch($query);
+uasort($entries, 'compare_bib_entries');
+
+foreach ($entries as $bibentry) {
+  echo "\n<li class=\"list-group-item\">".$bibentry->toHTML()."</li>\n";
+}
+?>
+</ul>
+
 
 
 <?php include 'footer.php';?>
