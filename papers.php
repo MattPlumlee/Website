@@ -22,18 +22,6 @@ $db->load('plumleebib.bib');
 
 There is a chance of odd entries as this is automatically generated, let me know if there are any issues figuring out how to access a paper.
 
-<ul class="list-group">
-<?php
-$query = array('year'=>'.*');
-$entries=$db->multisearch($query);
-uasort($entries, 'compare_bib_entries');
-
-foreach ($entries as $bibentry) {
-  echo "\n<li class=\"list-group-item\">".$bibentry->toHTML()."</li>\n";
-}
-?>
-</ul>
-
 <h4>journal articles </h4>
 
 
