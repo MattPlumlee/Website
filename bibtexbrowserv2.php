@@ -1094,11 +1094,6 @@ function latex2html($line, $do_clean_extra_bracket=true) {
 
   // handling \textsubscript{....} FAILS if there still are nested {}
   $line = preg_replace('/\\\\textsubscript\{(.*)\}/U','<sub>\\1</sub>', $line);
-
-  $linearr = explode(' ', $line);
-  foreach($linearr as $word){
-    $line = $line.' '.substr($word, 4);
-  }
   //foreach($linarr as $word) {
   //  $word = join('R', $word);
   //}
