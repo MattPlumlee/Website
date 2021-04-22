@@ -56,7 +56,7 @@ foreach ($entries as $bibentry) {
 
 <ul class="list-group">
 <?php
-$query = 'query' => array(Q_TYPE=>'misc|phdthesis|mastersthesis|bachelorsthesis|techreport');
+$query = array(Q_TYPE=>'misc|phdthesis|mastersthesis|bachelorsthesis|techreport');
 $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries');
 
