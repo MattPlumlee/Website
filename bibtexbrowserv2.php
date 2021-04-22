@@ -1095,12 +1095,14 @@ function latex2html($line, $do_clean_extra_bracket=true) {
   // handling \textsubscript{....} FAILS if there still are nested {}
   $line = preg_replace('/\\\\textsubscript\{(.*)\}/U','<sub>\\1</sub>', $line);
 
+  $linearr = explode(' ', $line);
+  $line = join(' ', $linearr);
   if ($do_clean_extra_bracket) {
     // clean extra tex curly brackets, usually used for preserving capitals
     // must come before the final math replacement
-    // $line = ucfirst($line);
-    $line = str_replace('}','{H}',$line);
-    $line = str_replace('{','{H}',$line);
+    $line = ucfirst($line);
+    $line = str_replace('}','',$line);
+    $line = str_replace('{','',$line);
   }
 
   // we restore the math env
