@@ -42,7 +42,7 @@ pre {
 .list-group-item{
    display:inline;
    background-color: rgb(238, 244, 251);
-   padding: 0px 50px 0px;
+   margin: 0px 50px 0px;
  }
 
 .list-group{
