@@ -18,10 +18,10 @@ a
 
 h1, h2, h3 {color: #000; font-weight: 600;}
 
-h1 {font-size: 27pt;padding: 30px 20px }
-h2 {font-size: 25pt;padding: 20px 20px }
-h3 {font-size: 23pt;padding: 10px 20px }
-h4 {font-size: 20pt;padding: 7px 20px }
+h1 {font-size: 27pt}
+h2 {font-size: 25pt}
+h3 {font-size: 23pt}
+h4 {font-size: 20pt;padding: 7px 10px }
 
 
 li {margin-bottom: 12px;}
