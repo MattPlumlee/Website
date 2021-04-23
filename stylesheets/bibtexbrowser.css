@@ -42,7 +42,7 @@ pre {
 .list-group-item{
    display:inline;
    background-color: rgb(238, 244, 251);
-   margin-left: min(25px,10%);
+   margin-left: min(25px,2%);
    margin-right: 25px;/*min(25px,10%);*/
  }
 
