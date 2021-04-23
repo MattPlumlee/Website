@@ -27,7 +27,7 @@ $db = new BibDataBase();
 $db->load('plumleebib.bib');
 ?>
 
-<h3>research [<a href="software.php">papers</a>]
+<h3>research [<a href="papers.php">papers</a>]
 
 <h4>select theory/methodology pubs </h4>
 <ul class="list-group">
