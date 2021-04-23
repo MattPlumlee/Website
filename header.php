@@ -16,7 +16,7 @@
 </head>
 
 
-<link rel="icon" type="image/png" href="/myicon.png?" />
+<link rel="icon" type="image/png" href="http://users.iems.northwestern.edu/~mplumlee/myicon.png" />
 <body>
 
 <div class="container-sm"></div>
