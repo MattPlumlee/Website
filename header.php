@@ -67,16 +67,16 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php" data-tab="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php" data-tab="#home">home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="papers.php" data-tab="#papers">Papers</a>
+        <a class="nav-link" href="papers.php" data-tab="#papers">papers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="software.php" data-tab="#software">Software</a>
+        <a class="nav-link" href="software.php" data-tab="#software">software</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.php" data-tab="#projects">Projects</a>
+        <a class="nav-link" href="projects.php" data-tab="#projects">projects</a>
       </li>
     </ul>
   </div>
