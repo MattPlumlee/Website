@@ -59,12 +59,12 @@ foreach ($entries as $bibentry) {
 
 <h3>advising</h3>
 <ul style="list-style-type:none;">
-<li> <a href="https://ozgesurer.github.io/OS/"> Ozge Surer </a> (with Stefan Wild), Current  Postdoc 2020-   </li>
-<li> <a href="https://sites.northwestern.edu/eckman/"> David Eckman </a>  (with Barry Nelson), Current  Postdoc 2019-   </li>
-<li> Eugene Wickett   (with Karen Smilowitz), Current PhD Student   </li>
+<li> <a href="https://ozgesurer.github.io/OS/"> Ozge Surer </a>, Current  Postdoc 2020-   </li>
+<li> <a href="https://sites.northwestern.edu/eckman/"> David Eckman </a>, Current  Postdoc 2019-   </li>
+<li> Eugene Wickett , Current PhD Student   </li>
 <li> Moses Chan, Current PhD Student    </li>
-<li> Collin Erickson  (with Bruce Ankenman), PhD awarded 2019   </li>
-<li> Wenbo Sun (with Judy Jin), PhD awarded 2018  </li>
+<li> Collin Erickson, PhD awarded 2019   </li>
+<li> Wenbo Sun, PhD awarded 2018  </li>
 </ul>
 
 <h3>teaching</h3>
