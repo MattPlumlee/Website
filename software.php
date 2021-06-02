@@ -22,6 +22,8 @@ These are notable software packages in various stages of deveolpment intended
 for outside users of various levels.  All code for papers is submitted to the
 journal whenever possible and retained by myself.  Please reach out if you would
 like more information.
+
+
 <ul class="list-group">
 <?php
 $query = array('software'=>'1');
@@ -32,7 +34,7 @@ foreach ($entries as $bibentry) {
   echo "\n<li class=\"list-group-item\">".$bibentry->toHTML()."</li>\n";
 }
 ?>
-</ul>
+</ul> 
 
 
 
