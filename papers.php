@@ -19,7 +19,7 @@ $db->load('plumleebib.bib');
 
 <h3>papers  </h3>
 
- <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" > [google scholar] </a> 
+<h4> <a href="http://scholar.google.com/citations?hl=en&user=sSQeiUwAAAAJ" > [google scholar] </a> <h4>
 
 
 There is a chance of odd entries as this is automatically generated, let me know if there are any issues figuring out how to access a paper.
