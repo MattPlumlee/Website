@@ -1827,8 +1827,7 @@ class BibEntry {
       // may be overridden using configuration value of BIBTEXBROWSER_LINK_STYLE
       $result .= ' '.bib2links($this);
 
-      $result .= ' '.getNotes($this);
-      
+
       if ($wrapped) {
       switch(BIBTEXBROWSER_LAYOUT) { // close row
         case 'list':
@@ -3429,7 +3428,6 @@ class BibEntryDisplay {
   /** 2011/10/02: new display, inspired from Tom Zimmermann's home page */
   function displayOnSteroids() {
 
-      $subtitle = '<div class="bibentry-by">by '.$this->bib->getNotes().'</div>';
 
       $subtitle = '<div class="bibentry-by">by '.$this->bib->getFormattedAuthorsString().'</div>';
 
