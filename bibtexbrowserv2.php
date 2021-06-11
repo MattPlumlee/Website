@@ -2375,10 +2375,16 @@ function DefaultBibliographyStyle($bibentry) {
 
   if ($bibentry->hasField(YEAR)) $entry[] = '<span itemprop="datePublished">'.$bibentry->getYear().'</span>';
 
+  // some comments (e.g. acceptance rate)?
+  if ($bibentry->hasField('comment')) {
+      $result .=  " (".$bibentry->getField("comment").")";
+  }
+  
   $result = implode(", ",$entry).'.';
 
   // add the Coin URL
   $result .=  $bibentry->toCoins();
+
 
   return '<span itemscope="" itemtype="http://schema.org/ScholarlyArticle">'.$result.'</span>';
 }
