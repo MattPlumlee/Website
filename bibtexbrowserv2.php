@@ -2379,7 +2379,7 @@ function DefaultBibliographyStyle($bibentry) {
   if ($bibentry->hasField('comment')) {
       $result .=  " (".$bibentry->getField("comment").")";
   }
-  
+
   $result = implode(", ",$entry).'.';
 
   // add the Coin URL
@@ -2486,6 +2486,11 @@ function JanosBibliographyStyle($bibentry) {
           }
     }
 
+  // some comments (e.g. acceptance rate)?
+  if ($bibentry->hasField('comment')) {
+      $result .=  " (".$bibentry->getField("comment").")";
+  }
+  
   // add the Coin URL
   $result .=  "\n".$bibentry->toCoins();
 
