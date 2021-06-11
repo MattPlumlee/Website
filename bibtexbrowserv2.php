@@ -1351,6 +1351,7 @@ class BibEntry {
     return "";
   }
 
+
   /** See description of 'getUrlLink'
     */
   function getAndRenameLink($bibfield, $iconurl=NULL) {
@@ -1448,6 +1449,11 @@ class BibEntry {
   /** Returns the title of this entry? */
   function getTitle() {
     return $this->getField('title');
+  }
+
+
+  function getNotes() {
+    return $this->getField('notes');
   }
 
    /** Returns the publisher of this entry
@@ -3420,6 +3426,9 @@ class BibEntryDisplay {
 
   /** 2011/10/02: new display, inspired from Tom Zimmermann's home page */
   function displayOnSteroids() {
+
+      $subtitle = '<div class="bibentry-by">by '.$this->bib->getNotes().'</div>';
+
       $subtitle = '<div class="bibentry-by">by '.$this->bib->getFormattedAuthorsString().'</div>';
 
       $abstract = '';
