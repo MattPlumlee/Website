@@ -1827,6 +1827,8 @@ class BibEntry {
       // may be overridden using configuration value of BIBTEXBROWSER_LINK_STYLE
       $result .= ' '.bib2links($this);
 
+      $result .= ' '.getNotes($this);
+      
       if ($wrapped) {
       switch(BIBTEXBROWSER_LAYOUT) { // close row
         case 'list':
