@@ -2488,7 +2488,7 @@ function JanosBibliographyStyle($bibentry) {
 
   // some comments (e.g. acceptance rate)?
   if ($bibentry->hasField('comment')) {
-      $result .=  "<br> <i> ".$bibentry->getField("comment")." </i>";
+      $result .=  "<br> <i> ".$bibentry->getField("comment")." </i> ";
   }
 
   // add the Coin URL
